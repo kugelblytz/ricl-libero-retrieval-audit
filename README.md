@@ -129,7 +129,6 @@ One-off scripts from earlier runs are in [`scripts/legacy/`](scripts/legacy/READ
 - [`kugelblytz/pi0-fast-libero90-ricl-finetuned`](https://huggingface.co/kugelblytz/pi0-fast-libero90-ricl-finetuned): the RICL policy used in the study.
 - [`kugelblytz/pi0-fast-libero90-normal-finetuned`](https://huggingface.co/kugelblytz/pi0-fast-libero90-normal-finetuned): the matched non-retrieval baseline.
 
-_Both are currently private on Hugging Face._
 
 ## Reproducing
 
