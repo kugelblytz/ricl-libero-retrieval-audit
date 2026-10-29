@@ -1,6 +1,7 @@
-# Better Retrieval, Better Control? Auditing Context Selection for an In-Context VLA
+# When Does Retrieval Help? A Study of In-Context Adaptation in Vision-Language-Action Models
 
-> **Paper:** _TODO: add title link, venue and year_ · Code for the paper's experiments on LIBERO-90.
+> **Paper:** [arXiv:2610.05492](https://arxiv.org/abs/2610.05492), NeurIPS 2026 Workshop PTA · Zixuan Liu, Joris Köster,
+> Zizhan Zheng, Siavash Khajavi · This repository holds the code and results for the paper's LIBERO-90 experiments.
 
 Retrieval-conditioned VLAs put retrieved demonstrations into the policy's context at every replanning step.
 Retrievers are usually judged on held-out **expert** trajectories, but at deployment the queries come from the
@@ -142,3 +143,16 @@ Rollout videos (2,960 MP4s) are in a private Hugging Face dataset and are not pa
 ## License
 
 Apache 2.0, as upstream. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
+
+## Citation
+
+```bibtex
+@inproceedings{liu2026whendoesretrievalhelp,
+  title     = {When Does Retrieval Help? A Study of In-Context Adaptation in Vision-Language-Action Models},
+  author    = {Liu, Zixuan and K{\"o}ster, Joris and Zheng, Zizhan and Khajavi, Siavash},
+  booktitle = {NeurIPS 2026 Workshop PTA},
+  year      = {2026},
+  eprint    = {2610.05492},
+  archivePrefix = {arXiv}
+}
+```
