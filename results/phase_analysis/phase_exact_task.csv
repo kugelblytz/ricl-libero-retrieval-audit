@@ -1,0 +1,49 @@
+condition,method_label,query_phase,query_phase_label,status,task_count,rollouts_with_phase,retrieved_slots,exact_task_fraction_equal_task_scene,exact_task_fraction_slot_weighted
+dino_global,DINO,0,Approach / setup,all,25,250,14340,0.4730407695374801,0.4799860529986053
+dino_global,DINO,1,Contact / grasp / actuate,all,25,250,15560,0.5025905067155068,0.4775706940874036
+dino_global,DINO,2,Transport / manipulate,all,25,250,16148,0.5058920394964512,0.45466930889274215
+dino_global,DINO,3,Place / release / finish,all,25,250,15628,0.572398259489049,0.5017276682876888
+dino_global,DINO,0,Approach / setup,failure,23,150,11400,0.4386101122371145,0.4506140350877193
+dino_global,DINO,1,Contact / grasp / actuate,failure,23,150,12000,0.38955486542443063,0.4035
+dino_global,DINO,2,Transport / manipulate,failure,23,150,12600,0.3799997535245982,0.37666666666666665
+dino_global,DINO,3,Place / release / finish,failure,23,150,12000,0.40828545548654244,0.3865
+dino_global,DINO,0,Approach / setup,success,21,100,2940,0.5688921385052337,0.5938775510204082
+dino_global,DINO,1,Contact / grasp / actuate,success,21,100,3560,0.6948748811185036,0.7272471910112359
+dino_global,DINO,2,Transport / manipulate,success,21,100,3548,0.7321481716646032,0.7316798196166855
+dino_global,DINO,3,Place / release / finish,success,21,100,3628,0.893109520069778,0.8828555678059536
+dino_state_global,DINO+State,0,Approach / setup,all,25,250,14744,0.4516314626936531,0.45889853499728706
+dino_state_global,DINO+State,1,Contact / grasp / actuate,all,25,250,15940,0.45876760371980957,0.4341279799247177
+dino_state_global,DINO+State,2,Transport / manipulate,all,25,250,16552,0.4945137790400175,0.4539028516191397
+dino_state_global,DINO+State,3,Place / release / finish,all,25,250,15992,0.5399556744425166,0.48042771385692845
+dino_state_global,DINO+State,0,Approach / setup,failure,25,158,12008,0.38048830409356726,0.4526982011992005
+dino_state_global,DINO+State,1,Contact / grasp / actuate,failure,25,158,12640,0.34823273809523814,0.38947784810126584
+dino_state_global,DINO+State,2,Transport / manipulate,failure,25,158,13272,0.37009523809523814,0.4052139843279084
+dino_state_global,DINO+State,3,Place / release / finish,failure,25,158,12640,0.37727499999999997,0.39984177215189876
+dino_state_global,DINO+State,0,Approach / setup,success,24,92,2736,0.5677473797628187,0.4861111111111111
+dino_state_global,DINO+State,1,Contact / grasp / actuate,success,24,92,3300,0.6812002723239483,0.6051515151515151
+dino_state_global,DINO+State,2,Transport / manipulate,success,24,92,3280,0.707588800728676,0.6509146341463414
+dino_state_global,DINO+State,3,Place / release / finish,success,24,92,3352,0.7826355045504482,0.7843078758949881
+pi_global,pi0-FF,0,Approach / setup,all,25,250,14144,0.47849214315526234,0.44407522624434387
+pi_global,pi0-FF,1,Contact / grasp / actuate,all,25,250,15348,0.37946608020462513,0.3299452697419859
+pi_global,pi0-FF,2,Transport / manipulate,all,25,250,15964,0.3531123861003118,0.2818215985968429
+pi_global,pi0-FF,3,Place / release / finish,all,25,250,15412,0.3411444294826261,0.2570075266026473
+pi_global,pi0-FF,0,Approach / setup,failure,25,149,11324,0.40216520467836253,0.4174320028258566
+pi_global,pi0-FF,1,Contact / grasp / actuate,failure,25,149,11920,0.3017329365079365,0.2738255033557047
+pi_global,pi0-FF,2,Transport / manipulate,failure,25,149,12516,0.2530279667422525,0.20901246404602108
+pi_global,pi0-FF,3,Place / release / finish,failure,25,149,11920,0.2158753968253968,0.15956375838926173
+pi_global,pi0-FF,0,Approach / setup,success,21,101,2820,0.5783855595323933,0.551063829787234
+pi_global,pi0-FF,1,Contact / grasp / actuate,success,21,101,3428,0.5171224125554279,0.5250875145857643
+pi_global,pi0-FF,2,Transport / manipulate,success,21,101,3448,0.5498543801365259,0.5461136890951276
+pi_global,pi0-FF,3,Place / release / finish,success,21,101,3492,0.5726882921964902,0.5896334478808706
+random_global,Random,0,Approach / setup,all,25,250,16040,0.03962955344019585,0.040897755610972565
+random_global,Random,1,Contact / grasp / actuate,all,25,250,17180,0.04255254435107376,0.04289871944121071
+random_global,Random,2,Transport / manipulate,all,25,250,17936,0.040577200512765525,0.04042149866190901
+random_global,Random,3,Place / release / finish,all,25,250,17204,0.04202355308090602,0.041734480353406184
+random_global,Random,0,Approach / setup,failure,25,185,14060,0.040353801169590635,0.04139402560455192
+random_global,Random,1,Contact / grasp / actuate,failure,25,185,14800,0.041414285714285716,0.043243243243243246
+random_global,Random,2,Transport / manipulate,failure,25,185,15540,0.039046296296296294,0.040926640926640924
+random_global,Random,3,Place / release / finish,failure,25,185,14800,0.040369047619047624,0.04162162162162162
+random_global,Random,0,Approach / setup,success,19,65,1980,0.039086480219413654,0.03737373737373737
+random_global,Random,1,Contact / grasp / actuate,success,19,65,2380,0.0407441629935825,0.040756302521008404
+random_global,Random,2,Transport / manipulate,success,19,65,2396,0.04224656293501006,0.03714524207011686
+random_global,Random,3,Place / release / finish,success,19,65,2404,0.044096948635777324,0.042429284525790346

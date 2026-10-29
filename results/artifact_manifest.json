@@ -1,0 +1,431 @@
+{
+  "artifact_count": 82,
+  "artifacts": [
+    {
+      "path": "data/libero/reports/libero90_closed_loop_retrieval/closed_loop_conditions.csv",
+      "sha256": "6113ddd53f54dc7838e599dbb2f6c2bd6b7df534c73797e328b1ea89124ef5da",
+      "size_bytes": 645
+    },
+    {
+      "path": "data/libero/reports/libero90_closed_loop_retrieval/closed_loop_per_task.csv",
+      "sha256": "87bffac5a2a5f963425baf3a48bdb2a2e7c9f7608b6d4c6566117819a10d8259",
+      "size_bytes": 6830
+    },
+    {
+      "path": "data/libero/reports/libero90_closed_loop_retrieval/early_retrieval_feedback.csv",
+      "sha256": "ceb63eead45340cc8056fe69e4ad8faf3ee342871c298f91660575afdebe1a8c",
+      "size_bytes": 656
+    },
+    {
+      "path": "data/libero/reports/libero90_closed_loop_retrieval/figures/main_four_panel.pdf",
+      "sha256": "7b80378906877352fed794885fb2e9cb89bdfe4ef64d48285f70506dff06708f",
+      "size_bytes": 20910
+    },
+    {
+      "path": "data/libero/reports/libero90_closed_loop_retrieval/figures/main_four_panel.png",
+      "sha256": "d7213cb63fcabf881e93b501c4c333a094c706fff8f910adf53779f83aa48556",
+      "size_bytes": 188456
+    },
+    {
+      "path": "data/libero/reports/libero90_closed_loop_retrieval/matched_expert_retrieval.csv",
+      "sha256": "0168da6b995fb95416c1ad0be23dc01ec92dc41c7fdd03ae43d5f38c2ce76e6a",
+      "size_bytes": 344
+    },
+    {
+      "path": "data/libero/reports/libero90_closed_loop_retrieval/matched_scene_distribution_shift.csv",
+      "sha256": "12353feafd6f4e83c901bdc681aed461f996de9a908c8771309c28ee2e80eef4",
+      "size_bytes": 697
+    },
+    {
+      "path": "data/libero/reports/libero90_closed_loop_retrieval/offline_global.csv",
+      "sha256": "0da3c225c1fa967245a5b9d3f28451d6d45ca20de4bc740b224a6a53a67ef826",
+      "size_bytes": 230
+    },
+    {
+      "path": "data/libero/reports/libero90_closed_loop_retrieval/offline_online_correlations.csv",
+      "sha256": "b34ce5404967bb719b6b49d34feb56c2becf6b5c1a50554c8420781a59b8566c",
+      "size_bytes": 590
+    },
+    {
+      "path": "data/libero/reports/libero90_closed_loop_retrieval/paired_comparisons.csv",
+      "sha256": "9ce060ddadf44a82fa3dfde6245dc13d7acc1c3a404892b3ea510bb634dbb792",
+      "size_bytes": 1193
+    },
+    {
+      "path": "data/libero/reports/libero90_closed_loop_retrieval/phase_analysis/figures/phase_alignment.png",
+      "sha256": "ec3b6073923204d0b2004440ddb88b66ee67feb94d18ade64643dc817178fc13",
+      "size_bytes": 164010
+    },
+    {
+      "path": "data/libero/reports/libero90_closed_loop_retrieval/phase_analysis/figures/phase_exact_task.png",
+      "sha256": "4ce6d1b1aef3a4615d30924cb872e780ac80b5aa35dae3e2baa5679c533a189f",
+      "size_bytes": 223392
+    },
+    {
+      "path": "data/libero/reports/libero90_closed_loop_retrieval/phase_analysis/figures/phase_example_t52.png",
+      "sha256": "de66fd16386265b9ac96a61ec91ec8639fea77fd64fb76df73c471c94fdc65dc",
+      "size_bytes": 495194
+    },
+    {
+      "path": "data/libero/reports/libero90_closed_loop_retrieval/phase_analysis/figures/phase_source_task_heatmaps.png",
+      "sha256": "3dfb6682fd26f215ab96cb01fef7f744341f933468da9dbc5b6d2422a1b9dc3d",
+      "size_bytes": 194675
+    },
+    {
+      "path": "data/libero/reports/libero90_closed_loop_retrieval/phase_analysis/phase_alignment.csv",
+      "sha256": "71748253e78b494cc30f64a759251700a62dc5daa00fac92f1b896b411b775b2",
+      "size_bytes": 7686
+    },
+    {
+      "path": "data/libero/reports/libero90_closed_loop_retrieval/phase_analysis/phase_exact_task.csv",
+      "sha256": "107cb198d5a8ae6985e15394718afc4016b9cb9b5367f1ca774d8ce378bd6f8a",
+      "size_bytes": 5145
+    },
+    {
+      "path": "data/libero/reports/libero90_closed_loop_retrieval/phase_analysis/phase_routes.csv",
+      "sha256": "af2b3642c7eb5ca9b08aa43d515fa0ec660011d70c79ab05118c1e8a0975d73b",
+      "size_bytes": 1657247
+    },
+    {
+      "path": "data/libero/reports/libero90_closed_loop_retrieval/phase_analysis/phase_source_tasks.csv",
+      "sha256": "bbf57401a9dc2a7cf36b0b37995fc9476b323158ab3524d46c3fd59a95d04e4d",
+      "size_bytes": 56377
+    },
+    {
+      "path": "data/libero/reports/libero90_closed_loop_retrieval/phase_analysis/summary.json",
+      "sha256": "a1c35934c14ba401f5bd868ab4e96fd5d38b859c42d7a583cad3915f7286a77b",
+      "size_bytes": 34061
+    },
+    {
+      "path": "data/libero/reports/libero90_closed_loop_retrieval/summary.json",
+      "sha256": "08d3107c41597faf1e0361983b42f6ebe8106a38f652e80fbddcf8ce412d327e",
+      "size_bytes": 12154
+    },
+    {
+      "path": "data/libero/reports/libero90_global_retrieval_final_run_20260817.pdf",
+      "sha256": "bcf0a538c5c4188ab479ba52fbe334240cf450c762d869f5e9416f1ca520f04e",
+      "size_bytes": 395009
+    },
+    {
+      "path": "data/libero/videos/libero90_pi_vs_dino_context_full_20260810/dino_state_global/policy_server_attempt_1_resources.csv",
+      "sha256": "89926f2ead8da93ea711ac92e52062ce793f17b40f8b6c1675523c81506b4180",
+      "size_bytes": 23042
+    },
+    {
+      "path": "data/libero/videos/libero90_pi_vs_dino_context_full_20260810/dino_state_global/results.jsonl",
+      "sha256": "3f861d8357d66ceb1ad7a0387e3fdedfd0a3048ac220f63c2ca4a139bcde2396",
+      "size_bytes": 29696
+    },
+    {
+      "path": "data/libero/videos/libero90_pi_vs_dino_context_full_20260810/dino_state_global/retrieval_trace.jsonl",
+      "sha256": "9b10fb642d3d5dccbee6ab62253645307dcab0814c9a6d38c2798b86c0454d58",
+      "size_bytes": 1337728
+    },
+    {
+      "path": "data/libero/videos/libero90_pi_vs_dino_context_full_20260810/dino_state_task/policy_server_attempt_1_resources.csv",
+      "sha256": "0046bd377c88c29f9f7765effb600d5db4415f35a9782acc81a12f61c79e22c5",
+      "size_bytes": 19069
+    },
+    {
+      "path": "data/libero/videos/libero90_pi_vs_dino_context_full_20260810/dino_state_task/results.jsonl",
+      "sha256": "473d96d709f5ffca5f6162e0fe3584516a64262cb1a7306acefcf2a41c973070",
+      "size_bytes": 29537
+    },
+    {
+      "path": "data/libero/videos/libero90_pi_vs_dino_context_full_20260810/dino_state_task/retrieval_trace.jsonl",
+      "sha256": "c611e8798e58e4e7896bf163f33a0ca2d77c729fb9f4d6563711f82f62ef8f39",
+      "size_bytes": 1137890
+    },
+    {
+      "path": "data/libero/videos/libero90_pi_vs_dino_context_full_20260810/pi_first_fusion_equivalence.json",
+      "sha256": "3e2f147924f76906c3d09f6322f782e6da34d0e625ce76487236588be8b2e464",
+      "size_bytes": 390
+    },
+    {
+      "path": "data/libero/videos/libero90_pi_vs_dino_context_full_20260810/pi_task/policy_server_attempt_1_resources.csv",
+      "sha256": "7982523e7d377df5071d1211d3d662de95095b4457505a1f15deac17c05fb3cc",
+      "size_bytes": 3726
+    },
+    {
+      "path": "data/libero/videos/libero90_pi_vs_dino_context_full_20260810/pi_task/results.jsonl",
+      "sha256": "1ee1a887e621d69df5855bea42e13c9ae46f003ee4ca34b3a5653c91d8fed45a",
+      "size_bytes": 5712
+    },
+    {
+      "path": "data/libero/videos/libero90_pi_vs_dino_context_full_20260810/pi_task/retrieval_trace.jsonl",
+      "sha256": "5b860c0813533be8e0c40cd81a2292dbc16ca9aed2aa9ecc0dde853484d5723a",
+      "size_bytes": 279474
+    },
+    {
+      "path": "data/libero/videos/libero90_pi_vs_dino_context_full_20260810/run_manifest.json",
+      "sha256": "85b77e639d011853021152159ffeab1e4daf16252b37db7c74cc108771987092",
+      "size_bytes": 1635
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/condition_summary.csv",
+      "sha256": "3a3e96870213c73bfe61d65ecac722d01eacf59bc6b339268a707853770bf6fd",
+      "size_bytes": 952
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/dino_global/policy_server_attempt_1_resources.csv",
+      "sha256": "3377419cba8556a624e5bf39a2e8a7c0326e30d9774bcdd4207ddbd16740ed19",
+      "size_bytes": 162854
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/dino_global/results.jsonl",
+      "sha256": "1d4c86caa637fce33effa7acb68c444935f8b023708b70adf17ac4279dc81a4a",
+      "size_bytes": 215347
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/dino_global/retrieval_trace.jsonl",
+      "sha256": "9f049eecfeb3f8e51595becce1e011723c153651b33fa41e7a865a992632bb4e",
+      "size_bytes": 10237249
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/dino_state_global/policy_server_attempt_1_resources.csv",
+      "sha256": "c7aca4f39aa2f2099fad67cc2f588f91c33f3981c0d7608bab2ff5ef33f04e7b",
+      "size_bytes": 185726
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/dino_state_global/results.jsonl",
+      "sha256": "300192e56873f21e8be50de8741cf9daa11d2493b7fc039682fc8115d6af70e3",
+      "size_bytes": 218125
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/dino_state_global/retrieval_trace.jsonl",
+      "sha256": "a53c5d927daad4d3d69e3484fc34a4ead075a8285935d86f45a38b8f9368ec37",
+      "size_bytes": 11028203
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/figures/closed_loop_success.png",
+      "sha256": "ed59a4983775c00bcf099f27750c18ce03adf49ada410fadb2b798ab23bea6a8",
+      "size_bytes": 28224
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/figures/correct_task_retrieval_vs_success.png",
+      "sha256": "ecd191c9157c919f6b7152320fafdd02704931bf100c1a396d89fe46b5f77281",
+      "size_bytes": 66443
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/figures/global_offline_ndcg.png",
+      "sha256": "fc97667ddd6cf6531eb763d5cc6a848a571b734264a4c0295acfb1288e725c31",
+      "size_bytes": 27871
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/figures/offline_vs_online_paired_delta.png",
+      "sha256": "3c00055ceccdd13abb3a3c79558984ef8cd377d396d4f3c9ed4afc2443ad9948",
+      "size_bytes": 51079
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/figures/per_task_closed_loop_heatmap.png",
+      "sha256": "c45d06fb7d2fd42b01094c142da980f5857c734141d3ef6f503d115fcd0a9c26",
+      "size_bytes": 40797
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/offline_ndcg_summary.csv",
+      "sha256": "5d4042a1be900fb8ca8c725925d0078a2739e049b621a35a829b687d9d5810e5",
+      "size_bytes": 188
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/offline_online_correlations.csv",
+      "sha256": "b986c6eb93e04f4067c81b63edfb26ab2048b94ee1a84c039bccbce7b310d211",
+      "size_bytes": 277
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/paired_comparisons.csv",
+      "sha256": "6709e0e521bcd04ca7995976e0abf540841e8dbc3ef0bbb7d447cde68e463552",
+      "size_bytes": 1122
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/per_task_results.csv",
+      "sha256": "48075ebc52e24cb1a1c7eba7df4d5685368980fd6d19b99cc5951fe7aa43bf34",
+      "size_bytes": 5670
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/pi_first_fusion_equivalence.json",
+      "sha256": "42ef2c5bbe53abaafde376bda26cdb2b1ba1a5de2caba825d21cfad124e463ad",
+      "size_bytes": 389
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/pi_global/policy_server_attempt_1_resources.csv",
+      "sha256": "82821d0e0761bb1fa8edcb641f038782ccea5432aaa6e5e3d21ddc71bab69a12",
+      "size_bytes": 137624
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/pi_global/results.jsonl",
+      "sha256": "d85ed4aed81e62e8f3ef79f4cd6d69d8ec8da2a6b0fbcb7135c0ed87867367e2",
+      "size_bytes": 215400
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/pi_global/retrieval_trace.jsonl",
+      "sha256": "20cdcd424c4bf3c63aeb0977f936d465b3118e101003ceeaebda2bd9bcf8510a",
+      "size_bytes": 10582337
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/random_global/policy_server_attempt_1_resources.csv",
+      "sha256": "db2ea070896e6c1cf1951ff7e99744189aea88767de7a6296be1b5cff246dac0",
+      "size_bytes": 170521
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/random_global/results.jsonl",
+      "sha256": "093121990776deacc178cf49d22ee403b5d3e17795de51d4712d652b1b9196f1",
+      "size_bytes": 217987
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/random_global/retrieval_trace.jsonl",
+      "sha256": "ceb87b6f36685256ac51156b821edd3588cdd753563e07162afb23f9ad12b20e",
+      "size_bytes": 12803790
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/run_manifest.json",
+      "sha256": "8918d7f14a9bf785ba313f592d180606d07c1d9e59ac84086163e92297e7c1a8",
+      "size_bytes": 1948
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_extension15_global25_disjoint_20260811_145749/summary.json",
+      "sha256": "753809e3fe178d1ae473d27acbd897d74ebb87a7cf6640d724a53aa534b74165",
+      "size_bytes": 29055
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/condition_summary.csv",
+      "sha256": "f6ece4c767cb4e3a23902b7ce6c5d435c00d9b66da811410b7c909348b81e643",
+      "size_bytes": 809
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/dino_global/policy_server_attempt_1_resources.csv",
+      "sha256": "10ed91f0e2f3ae167bdee0f01c18e604cc92a4cfd0826952c50110193b88e12e",
+      "size_bytes": 114326
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/dino_global/results.jsonl",
+      "sha256": "0958c7f70e5d822ba2365e3174fa5a90e8a32e908291b59a6734b8a32f16b4d3",
+      "size_bytes": 144197
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/dino_global/retrieval_trace.jsonl",
+      "sha256": "4089288df43a5967bd2ef437a9d12e191ef7aa6a054fb01f7030ba975141ff86",
+      "size_bytes": 7203682
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/dino_state_global/policy_server_attempt_1_resources.csv",
+      "sha256": "530c6cece2fd64c37efd8cd225e85e5d314ba874988896c2260a43d236c9e7c0",
+      "size_bytes": 112451
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/dino_state_global/results.jsonl",
+      "sha256": "41d08fb126dc1fdddfc2f1f65c2383cd17b6be40d21f00a505be8321712e6198",
+      "size_bytes": 146015
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/dino_state_global/retrieval_trace.jsonl",
+      "sha256": "f92393dc8e5105661e29fbdff5c3e1e3bc1aac7e55ee2ada65f1d68ca61559d0",
+      "size_bytes": 7250237
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/figures/closed_loop_success.png",
+      "sha256": "dc23e0beb914605d120104f2b13ac2068c30f649cc8dc7af67e4b32f4cf9dc02",
+      "size_bytes": 28160
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/figures/correct_task_retrieval_vs_success.png",
+      "sha256": "a2dca49b804efc0dee0e7baa84c20436b9910ad4246a9c36820637c3d5d2679d",
+      "size_bytes": 61590
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/figures/global_offline_ndcg.png",
+      "sha256": "fc97667ddd6cf6531eb763d5cc6a848a571b734264a4c0295acfb1288e725c31",
+      "size_bytes": 27871
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/figures/offline_vs_online_paired_delta.png",
+      "sha256": "72594cf135dce0a757882785245d6cf5904326e779e636a8036483381cb207b3",
+      "size_bytes": 55073
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/figures/per_task_closed_loop_heatmap.png",
+      "sha256": "732b410ffcbde99e5664b10abaa74aadc3ad2d8f319ecd9c4d7add1ffc59f0de",
+      "size_bytes": 38785
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/offline_ndcg_summary.csv",
+      "sha256": "5d4042a1be900fb8ca8c725925d0078a2739e049b621a35a829b687d9d5810e5",
+      "size_bytes": 188
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/offline_online_correlations.csv",
+      "sha256": "cf6363c9e23bcd8a660a5708946f813c69fa2d0826f885eecfada74fc610597c",
+      "size_bytes": 276
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/paired_comparisons.csv",
+      "sha256": "f8a2310bb7c8276c674aec1f255afd1296053cfc4e3ab3c80f00562ca92064d6",
+      "size_bytes": 966
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/per_task_results.csv",
+      "sha256": "bdc4daf92f304380616fc16dc6d5366fe5c41b67b75ccf09981b257eb7dc9032",
+      "size_bytes": 3765
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/pi_first_fusion_equivalence.json",
+      "sha256": "42ef2c5bbe53abaafde376bda26cdb2b1ba1a5de2caba825d21cfad124e463ad",
+      "size_bytes": 389
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/pi_global/policy_server_attempt_1_resources.csv",
+      "sha256": "dfc1608284b2d7c0af000fad418a102087213fdf803ee006e57c3bdaf96817a8",
+      "size_bytes": 98061
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/pi_global/results.jsonl",
+      "sha256": "7ca3330e2406209a7a20d18feff273315e3d0a3f320e5b6fc39f2607ca2526b2",
+      "size_bytes": 144136
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/pi_global/retrieval_trace.jsonl",
+      "sha256": "b78358ccb409014219b068533b70bd5f49c1b2c219c460c33fde80a1eb4b662e",
+      "size_bytes": 7429854
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/random_global/policy_server_attempt_1_resources.csv",
+      "sha256": "9af009bedc2d2e6ac3c7a72fdb96e727f9b8b70fef280a8280105e31afdcdeab",
+      "size_bytes": 114217
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/random_global/results.jsonl",
+      "sha256": "b5fcc98b8da03a9976f738cf1f60f660b17c387e97b4c3f9379859f23b3ddb28",
+      "size_bytes": 145934
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/random_global/retrieval_trace.jsonl",
+      "sha256": "0cffe13494411cf30b3679f66d7b20b2d9379d7a3807e50b837c397f7fc39e4c",
+      "size_bytes": 8489000
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/run_manifest.json",
+      "sha256": "4b436782c7961b3e6ed8c287bbe736e0f1b6069a4d46108c9f04894fba5736ce",
+      "size_bytes": 1952
+    },
+    {
+      "path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/summary.json",
+      "sha256": "0f27a3bb7d321835fc4eb6f1f2ac78e7038e49330e383a3a78428ed4dd218f91",
+      "size_bytes": 21567
+    }
+  ],
+  "description": "Committed LIBERO-90 closed-loop retrieval result and report artifacts.",
+  "excluded_classes": [
+    "rollout videos",
+    "runtime logs (preserved separately in the historical artifact archive)",
+    "feature caches",
+    "datasets and retrieval pools",
+    "model assets and checkpoints",
+    "PID and tmux state"
+  ],
+  "run_statuses": {
+    "libero90_pi_vs_dino_context_full_20260810": "incomplete",
+    "libero90_retrieval_extension15_global25_disjoint_20260811_145749": "complete (600/600 canonical trials)",
+    "libero90_retrieval_final10_global25_disjoint_20260810_211205": "complete (400/400 canonical trials)"
+  },
+  "schema_version": 1,
+  "total_size_bytes": 84396079
+}

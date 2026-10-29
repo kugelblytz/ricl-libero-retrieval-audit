@@ -1,0 +1,9 @@
+This repository is a modified copy of RICL (https://github.com/ricl-vla/ricl_openpi), which is itself based on
+openpi (https://github.com/Physical-Intelligence/openpi). Both are licensed under the Apache License 2.0
+(see LICENSE).
+
+  RICL: Re-training (a VLA) for In-Context Learning. Sridhar et al., arXiv:2508.02062.
+  openpi. Copyright Physical Intelligence.
+
+The LIBERO retrieval study (new files and modifications listed in README.md, "What I built vs. upstream")
+was added by Joris Koester and is released under the same license.

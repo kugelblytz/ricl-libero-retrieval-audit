@@ -1,0 +1,65 @@
+condition,query_phase,source_phase,equal_task_scene_fraction,task_count,retrieved_slots,slot_weighted_fraction,method_label,query_phase_label,source_phase_label
+dino_global,0,0,0.596202120832384,25,7075,0.49337517433751743,DINO,Approach / setup,Approach / setup
+dino_global,0,1,0.25092158995974784,25,4510,0.31450488145048816,DINO,Approach / setup,Contact / grasp / actuate
+dino_global,0,2,0.11292046783625731,25,2067,0.14414225941422595,DINO,Approach / setup,Transport / manipulate
+dino_global,0,3,0.03995582137161084,25,688,0.04797768479776848,DINO,Approach / setup,Place / release / finish
+dino_global,1,0,0.1970403305028305,25,2140,0.13753213367609254,DINO,Contact / grasp / actuate,Approach / setup
+dino_global,1,1,0.38408382020026754,25,5503,0.3536632390745501,DINO,Contact / grasp / actuate,Contact / grasp / actuate
+dino_global,1,2,0.1808981502415713,25,3234,0.207840616966581,DINO,Contact / grasp / actuate,Transport / manipulate
+dino_global,1,3,0.23797769905533062,25,4683,0.30096401028277636,DINO,Contact / grasp / actuate,Place / release / finish
+dino_global,2,0,0.1545555875497052,25,2103,0.13023284617290068,DINO,Transport / manipulate,Approach / setup
+dino_global,2,1,0.23084475295945886,25,3354,0.20770374040128808,DINO,Transport / manipulate,Contact / grasp / actuate
+dino_global,2,2,0.27680687449805097,25,3791,0.23476591528362645,DINO,Transport / manipulate,Transport / manipulate
+dino_global,2,3,0.337792784992785,25,6900,0.4272974981421848,DINO,Transport / manipulate,Place / release / finish
+dino_global,3,0,0.10745598290598292,25,1689,0.108075249552086,DINO,Place / release / finish,Approach / setup
+dino_global,3,1,0.1442082002792529,25,2351,0.15043511645764013,DINO,Place / release / finish,Contact / grasp / actuate
+dino_global,3,2,0.23541613195456076,25,3446,0.22050166368057333,DINO,Place / release / finish,Transport / manipulate
+dino_global,3,3,0.5129196848602035,25,8142,0.5209879703097006,DINO,Place / release / finish,Place / release / finish
+dino_state_global,0,0,0.6060886867518446,25,7596,0.5151926207270754,DINO+State,Approach / setup,Approach / setup
+dino_state_global,0,1,0.2893647273263372,25,5275,0.35777265328269126,DINO+State,Approach / setup,Contact / grasp / actuate
+dino_state_global,0,2,0.08208820845477191,25,1542,0.1045849158979924,DINO+State,Approach / setup,Transport / manipulate
+dino_state_global,0,3,0.0224583774670462,25,331,0.02244981009224091,DINO+State,Approach / setup,Place / release / finish
+dino_state_global,1,0,0.16198542038027333,25,1550,0.0972396486825596,DINO+State,Contact / grasp / actuate,Approach / setup
+dino_state_global,1,1,0.38227318114032516,25,5566,0.34918444165621076,DINO+State,Contact / grasp / actuate,Contact / grasp / actuate
+dino_state_global,1,2,0.19417149294633812,25,3663,0.2297992471769134,DINO+State,Contact / grasp / actuate,Transport / manipulate
+dino_state_global,1,3,0.2615699055330634,25,5161,0.3237766624843162,DINO+State,Contact / grasp / actuate,Place / release / finish
+dino_state_global,2,0,0.08464926330978961,25,1101,0.0665176413726438,DINO+State,Transport / manipulate,Approach / setup
+dino_state_global,2,1,0.2541945369774704,25,3784,0.22861285645239246,DINO+State,Transport / manipulate,Contact / grasp / actuate
+dino_state_global,2,2,0.290569274065288,25,4006,0.24202513291445144,DINO+State,Transport / manipulate,Transport / manipulate
+dino_state_global,2,3,0.37058692564745194,25,7661,0.4628443692605123,DINO+State,Transport / manipulate,Place / release / finish
+dino_state_global,3,0,0.045239766081871344,25,631,0.03945722861430715,DINO+State,Place / release / finish,Approach / setup
+dino_state_global,3,1,0.15174207152496627,25,2648,0.16558279139569784,DINO+State,Place / release / finish,Contact / grasp / actuate
+dino_state_global,3,2,0.2237091919088823,25,3161,0.19766133066533267,DINO+State,Place / release / finish,Transport / manipulate
+dino_state_global,3,3,0.5793089704842801,25,9552,0.5972986493246624,DINO+State,Place / release / finish,Place / release / finish
+pi_global,0,0,0.6239499914086601,25,7314,0.5171097285067874,pi0-FF,Approach / setup,Approach / setup
+pi_global,0,1,0.2613897514551152,25,4723,0.3339225113122172,pi0-FF,Approach / setup,Contact / grasp / actuate
+pi_global,0,2,0.08898668902476953,25,1620,0.11453619909502262,pi0-FF,Approach / setup,Transport / manipulate
+pi_global,0,3,0.02567356811145511,25,487,0.03443156108597285,pi0-FF,Approach / setup,Place / release / finish
+pi_global,1,0,0.17927688912394796,25,1536,0.10007818608287725,pi0-FF,Contact / grasp / actuate,Approach / setup
+pi_global,1,1,0.42237440818984934,25,6229,0.40585092520198074,pi0-FF,Contact / grasp / actuate,Contact / grasp / actuate
+pi_global,1,2,0.21486318442049868,25,3991,0.2600338806359135,pi0-FF,Contact / grasp / actuate,Transport / manipulate
+pi_global,1,3,0.18348551826570403,25,3592,0.23403700807922856,pi0-FF,Contact / grasp / actuate,Place / release / finish
+pi_global,2,0,0.11148782740307508,25,1497,0.09377349035329491,pi0-FF,Transport / manipulate,Approach / setup
+pi_global,2,1,0.32861970667791096,25,5593,0.3503507892758707,pi0-FF,Transport / manipulate,Contact / grasp / actuate
+pi_global,2,2,0.34173880855126987,25,4655,0.29159358556752696,pi0-FF,Transport / manipulate,Transport / manipulate
+pi_global,2,3,0.21815365736774406,25,4219,0.2642821348033074,pi0-FF,Transport / manipulate,Place / release / finish
+pi_global,3,0,0.04991120178840767,25,783,0.05080456786919284,pi0-FF,Place / release / finish,Approach / setup
+pi_global,3,1,0.26256513318552793,25,4975,0.3228004152608357,pi0-FF,Place / release / finish,Contact / grasp / actuate
+pi_global,3,2,0.2970569521508763,25,4382,0.2843239034518557,pi0-FF,Place / release / finish,Transport / manipulate
+pi_global,3,3,0.39046671287518814,25,5272,0.34207111341811575,pi0-FF,Place / release / finish,Place / release / finish
+random_global,0,0,0.25113126030316435,25,4034,0.25149625935162095,Random,Approach / setup,Approach / setup
+random_global,0,1,0.25454350386885216,25,4055,0.2528054862842893,Random,Approach / setup,Contact / grasp / actuate
+random_global,0,2,0.25095518575851394,25,4006,0.2497506234413965,Random,Approach / setup,Transport / manipulate
+random_global,0,3,0.24337005006946957,25,3945,0.24594763092269326,Random,Approach / setup,Place / release / finish
+random_global,1,0,0.2479843465358171,25,4278,0.2490104772991851,Random,Contact / grasp / actuate,Approach / setup
+random_global,1,1,0.2502971541530365,25,4310,0.2508731082654249,Random,Contact / grasp / actuate,Contact / grasp / actuate
+random_global,1,2,0.25242640292713825,25,4307,0.25069848661233995,Random,Contact / grasp / actuate,Transport / manipulate
+random_global,1,3,0.24929209638400818,25,4285,0.24941792782305006,Random,Contact / grasp / actuate,Place / release / finish
+random_global,2,0,0.2531522395689965,25,4539,0.2530664585191793,Random,Transport / manipulate,Approach / setup
+random_global,2,1,0.2530061313299703,25,4550,0.25367975022301514,Random,Transport / manipulate,Contact / grasp / actuate
+random_global,2,2,0.25227420752621993,25,4491,0.25039027653880463,Random,Transport / manipulate,Transport / manipulate
+random_global,2,3,0.24156742157481323,25,4356,0.2428635147190009,Random,Transport / manipulate,Place / release / finish
+random_global,3,0,0.25125371834048305,25,4324,0.25133689839572193,Random,Place / release / finish,Approach / setup
+random_global,3,1,0.24670035577167929,25,4246,0.24680306905370844,Random,Place / release / finish,Contact / grasp / actuate
+random_global,3,2,0.25269487097869453,25,4329,0.2516275284817484,Random,Place / release / finish,Transport / manipulate
+random_global,3,3,0.24935105490914314,25,4305,0.2502325040688212,Random,Place / release / finish,Place / release / finish

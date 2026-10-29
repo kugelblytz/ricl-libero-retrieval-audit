@@ -1,0 +1,164 @@
+{
+  "protocol_version": 1,
+  "description": "Frozen 15-task extension cohort completing the baseline-RICL-capable 25-task closed-loop evaluation. This cohort was added in full after the 10-task primary run; report primary-10, extension-15, and pooled-25 results separately.",
+  "cohort_role": "complete_remaining_tasks_extension",
+  "primary_protocol_path": "scripts/libero90_final10_protocol.json",
+  "primary_evaluation_task_ids": [20, 24, 29, 34, 43, 49, 52, 56, 60, 69],
+  "candidate_task_range": [20, 69],
+  "candidate_task_count": 50,
+  "capability_rule": "Include a task iff the prior task-restricted DINO RICL screening run achieved at least one success in 10 rollouts.",
+  "capability_task_ids": [20, 21, 24, 25, 28, 29, 30, 31, 34, 35, 43, 44, 46, 49, 50, 51, 52, 55, 56, 57, 59, 60, 61, 68, 69],
+  "evaluation_task_rule": "Take the exact ordered set difference between the frozen 25-task capability set and the frozen 10-task primary evaluation set. No extension task is selected or excluded using final-method outcomes.",
+  "evaluation_task_ids": [21, 25, 28, 30, 31, 35, 44, 46, 50, 51, 55, 57, 59, 61, 68],
+  "selection_diagnostics": {
+    "extension15_ricl_screen_successes_out_of_150": 82,
+    "extension15_normal_screen_successes_out_of_150": 67,
+    "extension15_nointerp_successes_out_of_150": 81
+  },
+  "retrieval_pool_task_ids": [20, 21, 24, 25, 28, 29, 30, 31, 34, 35, 43, 44, 46, 49, 50, 51, 52, 55, 56, 57, 59, 60, 61, 68, 69],
+  "scene_rule": "For each evaluation task, remove the 20 retrieval-memory initial states and the 10 capability-screening initial states from the 50 LIBERO initial states, then choose 10 evenly spaced states from the remaining 20. The final list is frozen below.",
+  "screening_artifacts": {
+    "ricl_tasks_20_29": "data/libero/videos/libero90_leftout10/retrieval_trace.jsonl",
+    "ricl_tasks_30_69": "data/libero/videos/libero90_30to69_ricl20_leftout10_ricl20_cachefix_20260713_232910/results.jsonl",
+    "normal_tasks_20_29": "data/libero/videos/libero90_normal_leftout10_spread40_cuda_fp32_20260712_112443/results.jsonl",
+    "normal_tasks_30_69": "data/libero/videos/libero90_30to69_normal_leftout10_ricl20_cachefix_20260713_232910/results.jsonl",
+    "nointerp_confirmation": "data/libero/videos/libero90_20to69_ricl20_nointerp_solvable_seeded20_20260719/results.jsonl"
+  },
+  "per_task": {
+    "21": {
+      "instruction": "turn on the stove and put the frying pan on it",
+      "screening_ricl_successes_out_of_10": 7,
+      "screening_normal_successes_out_of_10": 6,
+      "nointerp_confirmation_successes_out_of_10": 6,
+      "memory": [0, 3, 5, 8, 10, 13, 15, 18, 21, 23, 26, 28, 31, 34, 36, 39, 41, 44, 46, 49],
+      "screening": [1, 6, 11, 17, 22, 27, 32, 38, 43, 48],
+      "final": [2, 7, 12, 16, 20, 25, 30, 35, 40, 47]
+    },
+    "25": {
+      "instruction": "put the black bowl on top of the cabinet",
+      "screening_ricl_successes_out_of_10": 9,
+      "screening_normal_successes_out_of_10": 8,
+      "nointerp_confirmation_successes_out_of_10": 10,
+      "memory": [0, 3, 5, 8, 10, 13, 15, 18, 21, 23, 26, 28, 31, 34, 36, 39, 41, 44, 46, 49],
+      "screening": [1, 6, 11, 17, 22, 27, 32, 38, 43, 48],
+      "final": [2, 7, 12, 16, 20, 25, 30, 35, 40, 47]
+    },
+    "28": {
+      "instruction": "close the top drawer of the cabinet",
+      "screening_ricl_successes_out_of_10": 10,
+      "screening_normal_successes_out_of_10": 10,
+      "nointerp_confirmation_successes_out_of_10": 10,
+      "memory": [0, 3, 5, 8, 10, 13, 15, 18, 21, 23, 26, 28, 31, 34, 36, 39, 41, 44, 46, 49],
+      "screening": [1, 6, 11, 17, 22, 27, 32, 38, 43, 48],
+      "final": [2, 7, 12, 16, 20, 25, 30, 35, 40, 47]
+    },
+    "30": {
+      "instruction": "put the black bowl on the plate",
+      "screening_ricl_successes_out_of_10": 8,
+      "screening_normal_successes_out_of_10": 4,
+      "nointerp_confirmation_successes_out_of_10": 7,
+      "memory": [0, 3, 5, 7, 9, 13, 14, 19, 22, 23, 24, 29, 31, 34, 35, 36, 40, 43, 46, 48],
+      "screening": [1, 6, 11, 16, 20, 27, 32, 38, 42, 49],
+      "final": [2, 8, 12, 17, 21, 26, 30, 37, 41, 47]
+    },
+    "31": {
+      "instruction": "put the black bowl on top of the cabinet",
+      "screening_ricl_successes_out_of_10": 4,
+      "screening_normal_successes_out_of_10": 4,
+      "nointerp_confirmation_successes_out_of_10": 4,
+      "memory": [1, 2, 7, 8, 13, 15, 16, 17, 20, 24, 27, 28, 29, 34, 36, 37, 40, 41, 43, 46],
+      "screening": [0, 5, 10, 14, 21, 26, 32, 38, 44, 49],
+      "final": [3, 6, 11, 18, 22, 25, 31, 35, 42, 48]
+    },
+    "35": {
+      "instruction": "open the microwave",
+      "screening_ricl_successes_out_of_10": 1,
+      "screening_normal_successes_out_of_10": 1,
+      "nointerp_confirmation_successes_out_of_10": 1,
+      "memory": [0, 3, 9, 10, 12, 14, 15, 19, 21, 27, 28, 32, 33, 35, 38, 39, 41, 44, 45, 49],
+      "screening": [1, 5, 8, 16, 20, 25, 30, 36, 42, 48],
+      "final": [2, 6, 11, 17, 22, 24, 29, 34, 40, 47]
+    },
+    "44": {
+      "instruction": "turn on the stove",
+      "screening_ricl_successes_out_of_10": 7,
+      "screening_normal_successes_out_of_10": 10,
+      "nointerp_confirmation_successes_out_of_10": 7,
+      "memory": [0, 3, 4, 6, 7, 8, 14, 15, 18, 20, 23, 27, 30, 32, 35, 36, 37, 38, 40, 41],
+      "screening": [1, 9, 12, 17, 22, 28, 33, 42, 45, 49],
+      "final": [2, 10, 13, 19, 24, 26, 31, 39, 44, 48]
+    },
+    "46": {
+      "instruction": "pick up the alphabet soup and put it in the basket",
+      "screening_ricl_successes_out_of_10": 8,
+      "screening_normal_successes_out_of_10": 7,
+      "nointerp_confirmation_successes_out_of_10": 8,
+      "memory": [2, 3, 5, 7, 9, 11, 15, 19, 22, 23, 24, 27, 28, 32, 35, 36, 37, 42, 44, 49],
+      "screening": [0, 6, 12, 16, 20, 29, 33, 39, 43, 48],
+      "final": [1, 8, 13, 17, 21, 26, 31, 38, 41, 47]
+    },
+    "50": {
+      "instruction": "pick up the alphabet soup and put it in the basket",
+      "screening_ricl_successes_out_of_10": 1,
+      "screening_normal_successes_out_of_10": 1,
+      "nointerp_confirmation_successes_out_of_10": 1,
+      "memory": [0, 2, 8, 9, 11, 13, 19, 23, 24, 25, 27, 28, 32, 34, 36, 42, 43, 45, 47, 48],
+      "screening": [1, 5, 10, 15, 18, 26, 31, 37, 40, 49],
+      "final": [3, 6, 12, 16, 20, 22, 30, 35, 39, 46]
+    },
+    "51": {
+      "instruction": "pick up the butter and put it in the basket",
+      "screening_ricl_successes_out_of_10": 6,
+      "screening_normal_successes_out_of_10": 2,
+      "nointerp_confirmation_successes_out_of_10": 6,
+      "memory": [1, 8, 9, 10, 11, 12, 16, 17, 20, 24, 30, 31, 32, 33, 35, 36, 38, 40, 41, 48],
+      "screening": [0, 4, 7, 15, 21, 26, 29, 39, 44, 49],
+      "final": [2, 5, 13, 18, 22, 25, 28, 37, 43, 47]
+    },
+    "55": {
+      "instruction": "pick up the alphabet soup and put it in the tray",
+      "screening_ricl_successes_out_of_10": 1,
+      "screening_normal_successes_out_of_10": 1,
+      "nointerp_confirmation_successes_out_of_10": 1,
+      "memory": [3, 5, 7, 8, 13, 19, 21, 22, 24, 26, 28, 29, 30, 31, 33, 35, 36, 43, 48, 49],
+      "screening": [0, 4, 10, 14, 17, 25, 34, 39, 42, 47],
+      "final": [1, 6, 11, 15, 18, 23, 32, 38, 41, 46]
+    },
+    "57": {
+      "instruction": "pick up the cream cheese and put it in the tray",
+      "screening_ricl_successes_out_of_10": 8,
+      "screening_normal_successes_out_of_10": 7,
+      "nointerp_confirmation_successes_out_of_10": 8,
+      "memory": [2, 6, 10, 12, 13, 15, 16, 18, 20, 21, 25, 27, 30, 33, 34, 35, 37, 39, 44, 48],
+      "screening": [0, 4, 8, 14, 22, 28, 32, 40, 43, 49],
+      "final": [1, 5, 9, 17, 23, 26, 31, 38, 42, 47]
+    },
+    "59": {
+      "instruction": "pick up the tomato sauce and put it in the tray",
+      "screening_ricl_successes_out_of_10": 1,
+      "screening_normal_successes_out_of_10": 0,
+      "nointerp_confirmation_successes_out_of_10": 1,
+      "memory": [0, 2, 4, 6, 7, 13, 14, 18, 22, 24, 28, 29, 32, 38, 40, 43, 44, 45, 46, 47],
+      "screening": [1, 8, 11, 16, 20, 26, 31, 35, 39, 49],
+      "final": [3, 9, 12, 17, 21, 25, 30, 34, 37, 48]
+    },
+    "61": {
+      "instruction": "pick up the chocolate pudding and put it in the tray",
+      "screening_ricl_successes_out_of_10": 8,
+      "screening_normal_successes_out_of_10": 0,
+      "nointerp_confirmation_successes_out_of_10": 8,
+      "memory": [6, 8, 9, 11, 13, 16, 17, 24, 26, 27, 30, 33, 34, 35, 37, 40, 41, 43, 44, 45],
+      "screening": [0, 3, 7, 14, 19, 23, 29, 36, 42, 49],
+      "final": [1, 4, 10, 15, 20, 22, 28, 32, 39, 48]
+    },
+    "68": {
+      "instruction": "put the yellow and white mug on the right plate",
+      "screening_ricl_successes_out_of_10": 3,
+      "screening_normal_successes_out_of_10": 6,
+      "nointerp_confirmation_successes_out_of_10": 3,
+      "memory": [5, 8, 10, 12, 15, 17, 21, 23, 24, 27, 28, 29, 31, 33, 34, 39, 40, 43, 45, 47],
+      "screening": [0, 3, 7, 13, 18, 25, 32, 37, 42, 49],
+      "final": [1, 4, 9, 14, 19, 22, 30, 36, 41, 48]
+    }
+  }
+}

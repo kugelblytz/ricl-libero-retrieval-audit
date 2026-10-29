@@ -1,0 +1,4 @@
+condition,method_label,matched_expert_queries,matched_scenes,correct_task_fraction,top1_task_accuracy,task_aware_ndcg_at4
+dino_global,DINO,2500,250,0.872,0.8747999999999999,0.7504532484025395
+dino_state_global,DINO+State,2500,250,0.8794,0.8787999999999999,0.796804149170592
+pi_global,pi0-FF,2500,250,0.8312999999999999,0.846,0.7428705162880533

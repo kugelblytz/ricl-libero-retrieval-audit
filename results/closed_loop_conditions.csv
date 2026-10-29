@@ -1,0 +1,5 @@
+condition,method_label,expected_rollouts,valid_result_rollouts,valid_trace_rollouts,infrastructure_error_rows,complete,observed_successes,successes,success_rate,success_ci95_low,success_ci95_high,correct_task_fraction,top1_task_accuracy
+dino_global,DINO,250,250,250,0,True,100,100,0.4,0.272,0.54,0.5175042283006073,0.5203073831896065
+dino_state_global,DINO+State,250,250,250,0,True,92,92,0.368,0.24,0.5,0.4892606158116059,0.4918867012044076
+pi_global,pi0-FF,250,250,250,0,True,101,101,0.404,0.284,0.528,0.3869316424818809,0.39498337980527426
+random_global,Random,250,250,250,0,True,65,65,0.26,0.156,0.376,0.04123811159826959,0.04187308497390542

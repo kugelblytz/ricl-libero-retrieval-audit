@@ -1,0 +1,4 @@
+condition,method_label,first_retrieval_queries,eligible_tasks_with_success_and_failure,successful_minus_failed_correct_task_fraction_pp,task_bootstrap_ci95_low_pp,task_bootstrap_ci95_high_pp,exploratory,interpretation
+dino_global,DINO,10,19,17.147921888053467,8.409095655806183,26.88214285714285,True,within-task association; not evidence of causal direction
+dino_state_global,DINO+State,10,24,23.374255952380953,13.037977430555554,34.329811507936505,True,within-task association; not evidence of causal direction
+pi_global,pi0-FF,10,21,12.896541950113383,5.124900793650798,21.463742441421015,True,within-task association; not evidence of causal direction

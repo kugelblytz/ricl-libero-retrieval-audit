@@ -1,0 +1,4 @@
+condition,method_label,tasks,scenes,expert_correct_task_fraction,policy_correct_task_fraction,expert_minus_policy_drop_pp,drop_ci95_low_pp,drop_ci95_high_pp,interpretation
+dino_global,DINO,25,250,0.872,0.5175042283006073,35.449577169939275,23.758125769435498,47.73842939886449,descriptive on-policy distribution shift; not a causal effect
+dino_state_global,DINO+State,25,250,0.8794,0.4892606158116059,39.01393841883941,28.752803853249535,50.14027160814112,descriptive on-policy distribution shift; not a causal effect
+pi_global,pi0-FF,25,250,0.8312999999999999,0.3869316424818809,44.43683575181191,36.42942581059909,52.373010342372936,descriptive on-policy distribution shift; not a causal effect

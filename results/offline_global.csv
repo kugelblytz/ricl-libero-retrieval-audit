@@ -1,0 +1,5 @@
+condition,method_label,tasks,global_task_aware_ndcg_at4
+dino_global,DINO,25,0.7461425888228755
+dino_state_global,DINO+State,25,0.7896952114644077
+pi_global,pi0-FF,25,0.7280367998043696
+random_global,Random,25,0.019883792187605866

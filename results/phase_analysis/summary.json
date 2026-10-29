@@ -1,0 +1,1023 @@
+{
+  "analysis_status": "final_complete",
+  "phase_definition": {
+    "type": "normalized rollout-time proxy",
+    "bins": [
+      "[0%, 25%)",
+      "[25%, 50%)",
+      "[50%, 75%)",
+      "[75%, 100%]"
+    ],
+    "labels": [
+      "Approach / setup",
+      "Contact / grasp / actuate",
+      "Transport / manipulate",
+      "Place / release / finish"
+    ],
+    "query_assignment": "policy_step / elapsed_steps",
+    "retrieved_frame_assignment": "cached expert-frame ordinal / cached episode length",
+    "limitation": "Per-step query kinematics and contact flags were not saved. Approach/grasp/transport/place are transparent temporal-semantic labels, not event-detector annotations; for stove, drawer, and microwave tasks, grasp means contact or actuation.",
+    "weighting": "Each rollout-phase is normalized first, then scenes are averaged within target task and tasks are averaged equally."
+  },
+  "validation": {
+    "conditions": 4,
+    "rollouts_per_condition": 250,
+    "total_rollouts": 1000,
+    "retrieved_slots": 254132,
+    "target_tasks": 25,
+    "source_tasks": 25,
+    "unmatched_retrieved_frames": 0
+  },
+  "methods": [
+    {
+      "condition": "dino_global",
+      "method_label": "DINO",
+      "retrieved_slots": 61676,
+      "exact_task_fraction_by_phase": [
+        0.4730407695374801,
+        0.5025905067155068,
+        0.5058920394964512,
+        0.572398259489049
+      ],
+      "outcome_exact_task_fraction_by_phase": {
+        "success": [
+          0.5688921385052337,
+          0.6948748811185036,
+          0.7321481716646032,
+          0.893109520069778
+        ],
+        "failure": [
+          0.4386101122371145,
+          0.38955486542443063,
+          0.3799997535245982,
+          0.40828545548654244
+        ]
+      },
+      "query_to_demo_phase_matrix": [
+        [
+          0.596202120832384,
+          0.25092158995974784,
+          0.11292046783625731,
+          0.03995582137161084
+        ],
+        [
+          0.1970403305028305,
+          0.38408382020026754,
+          0.1808981502415713,
+          0.23797769905533062
+        ],
+        [
+          0.1545555875497052,
+          0.23084475295945886,
+          0.27680687449805097,
+          0.337792784992785
+        ],
+        [
+          0.10745598290598292,
+          0.1442082002792529,
+          0.23541613195456076,
+          0.5129196848602035
+        ]
+      ],
+      "top_source_tasks_by_phase": [
+        {
+          "phase": "Approach / setup",
+          "tasks": [
+            {
+              "task_id": 21,
+              "instruction": "turn on the stove and put the frying pan on it",
+              "fraction": 0.08
+            },
+            {
+              "task_id": 57,
+              "instruction": "pick up the cream cheese and put it in the tray",
+              "fraction": 0.07224984810511127
+            },
+            {
+              "task_id": 50,
+              "instruction": "pick up the alphabet soup and put it in the basket",
+              "fraction": 0.07162121212121213
+            }
+          ]
+        },
+        {
+          "phase": "Contact / grasp / actuate",
+          "tasks": [
+            {
+              "task_id": 57,
+              "instruction": "pick up the cream cheese and put it in the tray",
+              "fraction": 0.081175
+            },
+            {
+              "task_id": 21,
+              "instruction": "turn on the stove and put the frying pan on it",
+              "fraction": 0.08
+            },
+            {
+              "task_id": 56,
+              "instruction": "pick up the butter and put it in the tray",
+              "fraction": 0.0702
+            }
+          ]
+        },
+        {
+          "phase": "Transport / manipulate",
+          "tasks": [
+            {
+              "task_id": 57,
+              "instruction": "pick up the cream cheese and put it in the tray",
+              "fraction": 0.08530700280112045
+            },
+            {
+              "task_id": 21,
+              "instruction": "turn on the stove and put the frying pan on it",
+              "fraction": 0.08
+            },
+            {
+              "task_id": 56,
+              "instruction": "pick up the butter and put it in the tray",
+              "fraction": 0.07414285714285714
+            }
+          ]
+        },
+        {
+          "phase": "Place / release / finish",
+          "tasks": [
+            {
+              "task_id": 56,
+              "instruction": "pick up the butter and put it in the tray",
+              "fraction": 0.08463157894736842
+            },
+            {
+              "task_id": 21,
+              "instruction": "turn on the stove and put the frying pan on it",
+              "fraction": 0.08
+            },
+            {
+              "task_id": 25,
+              "instruction": "put the black bowl on top of the cabinet",
+              "fraction": 0.07311428571428571
+            }
+          ]
+        }
+      ],
+      "top_cross_task_routes_by_phase": [
+        {
+          "phase": "Approach / setup",
+          "routes": [
+            {
+              "target_task": 20,
+              "target_instruction": "turn on the stove",
+              "source_task": 21,
+              "source_instruction": "turn on the stove and put the frying pan on it",
+              "mean_scene_fraction": 1.0
+            },
+            {
+              "target_task": 25,
+              "target_instruction": "put the black bowl on top of the cabinet",
+              "source_task": 24,
+              "source_instruction": "put the black bowl in the bottom drawer of the cabinet",
+              "mean_scene_fraction": 0.765
+            },
+            {
+              "target_task": 51,
+              "target_instruction": "pick up the butter and put it in the basket",
+              "source_task": 50,
+              "source_instruction": "pick up the alphabet soup and put it in the basket",
+              "mean_scene_fraction": 0.7230263157894737
+            }
+          ]
+        },
+        {
+          "phase": "Contact / grasp / actuate",
+          "routes": [
+            {
+              "target_task": 20,
+              "target_instruction": "turn on the stove",
+              "source_task": 21,
+              "source_instruction": "turn on the stove and put the frying pan on it",
+              "mean_scene_fraction": 1.0
+            },
+            {
+              "target_task": 25,
+              "target_instruction": "put the black bowl on top of the cabinet",
+              "source_task": 24,
+              "source_instruction": "put the black bowl in the bottom drawer of the cabinet",
+              "mean_scene_fraction": 0.7316964285714286
+            },
+            {
+              "target_task": 24,
+              "target_instruction": "put the black bowl in the bottom drawer of the cabinet",
+              "source_task": 25,
+              "source_instruction": "put the black bowl on top of the cabinet",
+              "mean_scene_fraction": 0.7025
+            }
+          ]
+        },
+        {
+          "phase": "Transport / manipulate",
+          "routes": [
+            {
+              "target_task": 20,
+              "target_instruction": "turn on the stove",
+              "source_task": 21,
+              "source_instruction": "turn on the stove and put the frying pan on it",
+              "mean_scene_fraction": 1.0
+            },
+            {
+              "target_task": 24,
+              "target_instruction": "put the black bowl in the bottom drawer of the cabinet",
+              "source_task": 25,
+              "source_instruction": "put the black bowl on top of the cabinet",
+              "mean_scene_fraction": 0.8440476190476189
+            },
+            {
+              "target_task": 25,
+              "target_instruction": "put the black bowl on top of the cabinet",
+              "source_task": 24,
+              "source_instruction": "put the black bowl in the bottom drawer of the cabinet",
+              "mean_scene_fraction": 0.7145833333333333
+            }
+          ]
+        },
+        {
+          "phase": "Place / release / finish",
+          "routes": [
+            {
+              "target_task": 20,
+              "target_instruction": "turn on the stove",
+              "source_task": 21,
+              "source_instruction": "turn on the stove and put the frying pan on it",
+              "mean_scene_fraction": 1.0
+            },
+            {
+              "target_task": 24,
+              "target_instruction": "put the black bowl in the bottom drawer of the cabinet",
+              "source_task": 25,
+              "source_instruction": "put the black bowl on top of the cabinet",
+              "mean_scene_fraction": 0.835
+            },
+            {
+              "target_task": 60,
+              "target_instruction": "pick up the black bowl on the left and put it in the tray",
+              "source_task": 61,
+              "source_instruction": "pick up the chocolate pudding and put it in the tray",
+              "mean_scene_fraction": 0.64375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "dino_state_global",
+      "method_label": "DINO+State",
+      "retrieved_slots": 63228,
+      "exact_task_fraction_by_phase": [
+        0.4516314626936531,
+        0.45876760371980957,
+        0.4945137790400175,
+        0.5399556744425166
+      ],
+      "outcome_exact_task_fraction_by_phase": {
+        "success": [
+          0.5677473797628187,
+          0.6812002723239483,
+          0.707588800728676,
+          0.7826355045504482
+        ],
+        "failure": [
+          0.38048830409356726,
+          0.34823273809523814,
+          0.37009523809523814,
+          0.37727499999999997
+        ]
+      },
+      "query_to_demo_phase_matrix": [
+        [
+          0.6060886867518446,
+          0.2893647273263372,
+          0.08208820845477191,
+          0.0224583774670462
+        ],
+        [
+          0.16198542038027333,
+          0.38227318114032516,
+          0.19417149294633812,
+          0.2615699055330634
+        ],
+        [
+          0.08464926330978961,
+          0.2541945369774704,
+          0.290569274065288,
+          0.37058692564745194
+        ],
+        [
+          0.045239766081871344,
+          0.15174207152496627,
+          0.2237091919088823,
+          0.5793089704842801
+        ]
+      ],
+      "top_source_tasks_by_phase": [
+        {
+          "phase": "Approach / setup",
+          "tasks": [
+            {
+              "task_id": 21,
+              "instruction": "turn on the stove and put the frying pan on it",
+              "fraction": 0.08115789473684211
+            },
+            {
+              "task_id": 49,
+              "instruction": "pick up the tomato sauce and put it in the basket",
+              "fraction": 0.07454623015873016
+            },
+            {
+              "task_id": 56,
+              "instruction": "pick up the butter and put it in the tray",
+              "fraction": 0.06933410449199923
+            }
+          ]
+        },
+        {
+          "phase": "Contact / grasp / actuate",
+          "tasks": [
+            {
+              "task_id": 21,
+              "instruction": "turn on the stove and put the frying pan on it",
+              "fraction": 0.09300000000000001
+            },
+            {
+              "task_id": 57,
+              "instruction": "pick up the cream cheese and put it in the tray",
+              "fraction": 0.09102935888071335
+            },
+            {
+              "task_id": 29,
+              "instruction": "put the black bowl in the top drawer of the cabinet",
+              "fraction": 0.0775492673992674
+            }
+          ]
+        },
+        {
+          "phase": "Transport / manipulate",
+          "tasks": [
+            {
+              "task_id": 21,
+              "instruction": "turn on the stove and put the frying pan on it",
+              "fraction": 0.09533333333333333
+            },
+            {
+              "task_id": 56,
+              "instruction": "pick up the butter and put it in the tray",
+              "fraction": 0.07918421052631579
+            },
+            {
+              "task_id": 57,
+              "instruction": "pick up the cream cheese and put it in the tray",
+              "fraction": 0.06235023163970532
+            }
+          ]
+        },
+        {
+          "phase": "Place / release / finish",
+          "tasks": [
+            {
+              "task_id": 21,
+              "instruction": "turn on the stove and put the frying pan on it",
+              "fraction": 0.09269999999999999
+            },
+            {
+              "task_id": 25,
+              "instruction": "put the black bowl on top of the cabinet",
+              "fraction": 0.08245833333333334
+            },
+            {
+              "task_id": 56,
+              "instruction": "pick up the butter and put it in the tray",
+              "fraction": 0.06895701754385965
+            }
+          ]
+        }
+      ],
+      "top_cross_task_routes_by_phase": [
+        {
+          "phase": "Approach / setup",
+          "routes": [
+            {
+              "target_task": 20,
+              "target_instruction": "turn on the stove",
+              "source_task": 21,
+              "source_instruction": "turn on the stove and put the frying pan on it",
+              "mean_scene_fraction": 1.0
+            },
+            {
+              "target_task": 25,
+              "target_instruction": "put the black bowl on top of the cabinet",
+              "source_task": 24,
+              "source_instruction": "put the black bowl in the bottom drawer of the cabinet",
+              "mean_scene_fraction": 0.7703947368421052
+            },
+            {
+              "target_task": 44,
+              "target_instruction": "turn on the stove",
+              "source_task": 43,
+              "source_instruction": "put the white bowl on top of the cabinet",
+              "mean_scene_fraction": 0.7324561403508772
+            }
+          ]
+        },
+        {
+          "phase": "Contact / grasp / actuate",
+          "routes": [
+            {
+              "target_task": 20,
+              "target_instruction": "turn on the stove",
+              "source_task": 21,
+              "source_instruction": "turn on the stove and put the frying pan on it",
+              "mean_scene_fraction": 1.0
+            },
+            {
+              "target_task": 25,
+              "target_instruction": "put the black bowl on top of the cabinet",
+              "source_task": 24,
+              "source_instruction": "put the black bowl in the bottom drawer of the cabinet",
+              "mean_scene_fraction": 0.7527678571428572
+            },
+            {
+              "target_task": 24,
+              "target_instruction": "put the black bowl in the bottom drawer of the cabinet",
+              "source_task": 25,
+              "source_instruction": "put the black bowl on top of the cabinet",
+              "mean_scene_fraction": 0.67625
+            }
+          ]
+        },
+        {
+          "phase": "Transport / manipulate",
+          "routes": [
+            {
+              "target_task": 20,
+              "target_instruction": "turn on the stove",
+              "source_task": 21,
+              "source_instruction": "turn on the stove and put the frying pan on it",
+              "mean_scene_fraction": 1.0
+            },
+            {
+              "target_task": 24,
+              "target_instruction": "put the black bowl in the bottom drawer of the cabinet",
+              "source_task": 25,
+              "source_instruction": "put the black bowl on top of the cabinet",
+              "mean_scene_fraction": 0.8854978354978356
+            },
+            {
+              "target_task": 25,
+              "target_instruction": "put the black bowl on top of the cabinet",
+              "source_task": 24,
+              "source_instruction": "put the black bowl in the bottom drawer of the cabinet",
+              "mean_scene_fraction": 0.6745535714285714
+            }
+          ]
+        },
+        {
+          "phase": "Place / release / finish",
+          "routes": [
+            {
+              "target_task": 20,
+              "target_instruction": "turn on the stove",
+              "source_task": 21,
+              "source_instruction": "turn on the stove and put the frying pan on it",
+              "mean_scene_fraction": 1.0
+            },
+            {
+              "target_task": 24,
+              "target_instruction": "put the black bowl in the bottom drawer of the cabinet",
+              "source_task": 25,
+              "source_instruction": "put the black bowl on top of the cabinet",
+              "mean_scene_fraction": 0.8895833333333334
+            },
+            {
+              "target_task": 55,
+              "target_instruction": "pick up the alphabet soup and put it in the tray",
+              "source_task": 56,
+              "source_instruction": "pick up the butter and put it in the tray",
+              "mean_scene_fraction": 0.51625
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "pi_global",
+      "method_label": "pi0-FF",
+      "retrieved_slots": 60868,
+      "exact_task_fraction_by_phase": [
+        0.47849214315526234,
+        0.37946608020462513,
+        0.3531123861003118,
+        0.3411444294826261
+      ],
+      "outcome_exact_task_fraction_by_phase": {
+        "success": [
+          0.5783855595323933,
+          0.5171224125554279,
+          0.5498543801365259,
+          0.5726882921964902
+        ],
+        "failure": [
+          0.40216520467836253,
+          0.3017329365079365,
+          0.2530279667422525,
+          0.2158753968253968
+        ]
+      },
+      "query_to_demo_phase_matrix": [
+        [
+          0.6239499914086601,
+          0.2613897514551152,
+          0.08898668902476953,
+          0.02567356811145511
+        ],
+        [
+          0.17927688912394796,
+          0.42237440818984934,
+          0.21486318442049868,
+          0.18348551826570403
+        ],
+        [
+          0.11148782740307508,
+          0.32861970667791096,
+          0.34173880855126987,
+          0.21815365736774406
+        ],
+        [
+          0.04991120178840767,
+          0.26256513318552793,
+          0.2970569521508763,
+          0.39046671287518814
+        ]
+      ],
+      "top_source_tasks_by_phase": [
+        {
+          "phase": "Approach / setup",
+          "tasks": [
+            {
+              "task_id": 21,
+              "instruction": "turn on the stove and put the frying pan on it",
+              "fraction": 0.0687594912827111
+            },
+            {
+              "task_id": 61,
+              "instruction": "pick up the chocolate pudding and put it in the tray",
+              "fraction": 0.059680756708891385
+            },
+            {
+              "task_id": 57,
+              "instruction": "pick up the cream cheese and put it in the tray",
+              "fraction": 0.05939035265130466
+            }
+          ]
+        },
+        {
+          "phase": "Contact / grasp / actuate",
+          "tasks": [
+            {
+              "task_id": 61,
+              "instruction": "pick up the chocolate pudding and put it in the tray",
+              "fraction": 0.13246551389786684
+            },
+            {
+              "task_id": 21,
+              "instruction": "turn on the stove and put the frying pan on it",
+              "fraction": 0.09157039072039072
+            },
+            {
+              "task_id": 57,
+              "instruction": "pick up the cream cheese and put it in the tray",
+              "fraction": 0.08083816447570318
+            }
+          ]
+        },
+        {
+          "phase": "Transport / manipulate",
+          "tasks": [
+            {
+              "task_id": 61,
+              "instruction": "pick up the chocolate pudding and put it in the tray",
+              "fraction": 0.13015438022589726
+            },
+            {
+              "task_id": 21,
+              "instruction": "turn on the stove and put the frying pan on it",
+              "fraction": 0.09760525210084033
+            },
+            {
+              "task_id": 57,
+              "instruction": "pick up the cream cheese and put it in the tray",
+              "fraction": 0.05889117807716879
+            }
+          ]
+        },
+        {
+          "phase": "Place / release / finish",
+          "tasks": [
+            {
+              "task_id": 21,
+              "instruction": "turn on the stove and put the frying pan on it",
+              "fraction": 0.11642173202614378
+            },
+            {
+              "task_id": 61,
+              "instruction": "pick up the chocolate pudding and put it in the tray",
+              "fraction": 0.11044099529211758
+            },
+            {
+              "task_id": 25,
+              "instruction": "put the black bowl on top of the cabinet",
+              "fraction": 0.062646939824881
+            }
+          ]
+        }
+      ],
+      "top_cross_task_routes_by_phase": [
+        {
+          "phase": "Approach / setup",
+          "routes": [
+            {
+              "target_task": 20,
+              "target_instruction": "turn on the stove",
+              "source_task": 21,
+              "source_instruction": "turn on the stove and put the frying pan on it",
+              "mean_scene_fraction": 0.7131578947368421
+            },
+            {
+              "target_task": 49,
+              "target_instruction": "pick up the tomato sauce and put it in the basket",
+              "source_task": 46,
+              "source_instruction": "pick up the alphabet soup and put it in the basket",
+              "mean_scene_fraction": 0.5192434210526315
+            },
+            {
+              "target_task": 28,
+              "target_instruction": "close the top drawer of the cabinet",
+              "source_task": 30,
+              "source_instruction": "put the black bowl on the plate",
+              "mean_scene_fraction": 0.4756578947368421
+            }
+          ]
+        },
+        {
+          "phase": "Contact / grasp / actuate",
+          "routes": [
+            {
+              "target_task": 20,
+              "target_instruction": "turn on the stove",
+              "source_task": 21,
+              "source_instruction": "turn on the stove and put the frying pan on it",
+              "mean_scene_fraction": 0.87375
+            },
+            {
+              "target_task": 55,
+              "target_instruction": "pick up the alphabet soup and put it in the tray",
+              "source_task": 61,
+              "source_instruction": "pick up the chocolate pudding and put it in the tray",
+              "mean_scene_fraction": 0.5375
+            },
+            {
+              "target_task": 59,
+              "target_instruction": "pick up the tomato sauce and put it in the tray",
+              "source_task": 61,
+              "source_instruction": "pick up the chocolate pudding and put it in the tray",
+              "mean_scene_fraction": 0.5025000000000001
+            }
+          ]
+        },
+        {
+          "phase": "Transport / manipulate",
+          "routes": [
+            {
+              "target_task": 55,
+              "target_instruction": "pick up the alphabet soup and put it in the tray",
+              "source_task": 61,
+              "source_instruction": "pick up the chocolate pudding and put it in the tray",
+              "mean_scene_fraction": 0.5285714285714286
+            },
+            {
+              "target_task": 25,
+              "target_instruction": "put the black bowl on top of the cabinet",
+              "source_task": 24,
+              "source_instruction": "put the black bowl in the bottom drawer of the cabinet",
+              "mean_scene_fraction": 0.48080357142857144
+            },
+            {
+              "target_task": 49,
+              "target_instruction": "pick up the tomato sauce and put it in the basket",
+              "source_task": 46,
+              "source_instruction": "pick up the alphabet soup and put it in the basket",
+              "mean_scene_fraction": 0.433452380952381
+            }
+          ]
+        },
+        {
+          "phase": "Place / release / finish",
+          "routes": [
+            {
+              "target_task": 44,
+              "target_instruction": "turn on the stove",
+              "source_task": 20,
+              "source_instruction": "turn on the stove",
+              "mean_scene_fraction": 0.49812500000000004
+            },
+            {
+              "target_task": 55,
+              "target_instruction": "pick up the alphabet soup and put it in the tray",
+              "source_task": 61,
+              "source_instruction": "pick up the chocolate pudding and put it in the tray",
+              "mean_scene_fraction": 0.46624999999999994
+            },
+            {
+              "target_task": 51,
+              "target_instruction": "pick up the butter and put it in the basket",
+              "source_task": 61,
+              "source_instruction": "pick up the chocolate pudding and put it in the tray",
+              "mean_scene_fraction": 0.3225438596491228
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "random_global",
+      "method_label": "Random",
+      "retrieved_slots": 68360,
+      "exact_task_fraction_by_phase": [
+        0.03962955344019585,
+        0.04255254435107376,
+        0.040577200512765525,
+        0.04202355308090602
+      ],
+      "outcome_exact_task_fraction_by_phase": {
+        "success": [
+          0.039086480219413654,
+          0.0407441629935825,
+          0.04224656293501006,
+          0.044096948635777324
+        ],
+        "failure": [
+          0.040353801169590635,
+          0.041414285714285716,
+          0.039046296296296294,
+          0.040369047619047624
+        ]
+      },
+      "query_to_demo_phase_matrix": [
+        [
+          0.25113126030316435,
+          0.25454350386885216,
+          0.25095518575851394,
+          0.24337005006946957
+        ],
+        [
+          0.2479843465358171,
+          0.2502971541530365,
+          0.25242640292713825,
+          0.24929209638400818
+        ],
+        [
+          0.2531522395689965,
+          0.2530061313299703,
+          0.25227420752621993,
+          0.24156742157481323
+        ],
+        [
+          0.25125371834048305,
+          0.24670035577167929,
+          0.25269487097869453,
+          0.24935105490914314
+        ]
+      ],
+      "top_source_tasks_by_phase": [
+        {
+          "phase": "Approach / setup",
+          "tasks": [
+            {
+              "task_id": 21,
+              "instruction": "turn on the stove and put the frying pan on it",
+              "fraction": 0.08124505113050004
+            },
+            {
+              "task_id": 44,
+              "instruction": "turn on the stove",
+              "fraction": 0.07373889246288627
+            },
+            {
+              "task_id": 25,
+              "instruction": "put the black bowl on top of the cabinet",
+              "fraction": 0.04633674817614446
+            }
+          ]
+        },
+        {
+          "phase": "Contact / grasp / actuate",
+          "tasks": [
+            {
+              "task_id": 21,
+              "instruction": "turn on the stove and put the frying pan on it",
+              "fraction": 0.07918325334795923
+            },
+            {
+              "task_id": 44,
+              "instruction": "turn on the stove",
+              "fraction": 0.07600494872774284
+            },
+            {
+              "task_id": 49,
+              "instruction": "pick up the tomato sauce and put it in the basket",
+              "fraction": 0.04780706507544743
+            }
+          ]
+        },
+        {
+          "phase": "Transport / manipulate",
+          "tasks": [
+            {
+              "task_id": 21,
+              "instruction": "turn on the stove and put the frying pan on it",
+              "fraction": 0.08164009247116832
+            },
+            {
+              "task_id": 44,
+              "instruction": "turn on the stove",
+              "fraction": 0.0742069418069031
+            },
+            {
+              "task_id": 61,
+              "instruction": "pick up the chocolate pudding and put it in the tray",
+              "fraction": 0.04559662954864194
+            }
+          ]
+        },
+        {
+          "phase": "Place / release / finish",
+          "tasks": [
+            {
+              "task_id": 21,
+              "instruction": "turn on the stove and put the frying pan on it",
+              "fraction": 0.08304523621803034
+            },
+            {
+              "task_id": 44,
+              "instruction": "turn on the stove",
+              "fraction": 0.07863826736988502
+            },
+            {
+              "task_id": 25,
+              "instruction": "put the black bowl on top of the cabinet",
+              "fraction": 0.045709215457744874
+            }
+          ]
+        }
+      ],
+      "top_cross_task_routes_by_phase": [
+        {
+          "phase": "Approach / setup",
+          "routes": [
+            {
+              "target_task": 46,
+              "target_instruction": "pick up the alphabet soup and put it in the basket",
+              "source_task": 21,
+              "source_instruction": "turn on the stove and put the frying pan on it",
+              "mean_scene_fraction": 0.12023182957393483
+            },
+            {
+              "target_task": 20,
+              "target_instruction": "turn on the stove",
+              "source_task": 44,
+              "source_instruction": "turn on the stove",
+              "mean_scene_fraction": 0.11140350877192981
+            },
+            {
+              "target_task": 35,
+              "target_instruction": "open the microwave",
+              "source_task": 21,
+              "source_instruction": "turn on the stove and put the frying pan on it",
+              "mean_scene_fraction": 0.10357142857142856
+            }
+          ]
+        },
+        {
+          "phase": "Contact / grasp / actuate",
+          "routes": [
+            {
+              "target_task": 20,
+              "target_instruction": "turn on the stove",
+              "source_task": 21,
+              "source_instruction": "turn on the stove and put the frying pan on it",
+              "mean_scene_fraction": 0.11875
+            },
+            {
+              "target_task": 44,
+              "target_instruction": "turn on the stove",
+              "source_task": 21,
+              "source_instruction": "turn on the stove and put the frying pan on it",
+              "mean_scene_fraction": 0.10583333333333333
+            },
+            {
+              "target_task": 28,
+              "target_instruction": "close the top drawer of the cabinet",
+              "source_task": 44,
+              "source_instruction": "turn on the stove",
+              "mean_scene_fraction": 0.10517857142857143
+            }
+          ]
+        },
+        {
+          "phase": "Transport / manipulate",
+          "routes": [
+            {
+              "target_task": 46,
+              "target_instruction": "pick up the alphabet soup and put it in the basket",
+              "source_task": 21,
+              "source_instruction": "turn on the stove and put the frying pan on it",
+              "mean_scene_fraction": 0.09776785714285714
+            },
+            {
+              "target_task": 60,
+              "target_instruction": "pick up the black bowl on the left and put it in the tray",
+              "source_task": 21,
+              "source_instruction": "turn on the stove and put the frying pan on it",
+              "mean_scene_fraction": 0.0971171802054155
+            },
+            {
+              "target_task": 25,
+              "target_instruction": "put the black bowl on top of the cabinet",
+              "source_task": 21,
+              "source_instruction": "turn on the stove and put the frying pan on it",
+              "mean_scene_fraction": 0.09177109440267335
+            }
+          ]
+        },
+        {
+          "phase": "Place / release / finish",
+          "routes": [
+            {
+              "target_task": 57,
+              "target_instruction": "pick up the cream cheese and put it in the tray",
+              "source_task": 21,
+              "source_instruction": "turn on the stove and put the frying pan on it",
+              "mean_scene_fraction": 0.11416666666666667
+            },
+            {
+              "target_task": 25,
+              "target_instruction": "put the black bowl on top of the cabinet",
+              "source_task": 44,
+              "source_instruction": "turn on the stove",
+              "mean_scene_fraction": 0.1036904761904762
+            },
+            {
+              "target_task": 29,
+              "target_instruction": "put the black bowl in the top drawer of the cabinet",
+              "source_task": 21,
+              "source_instruction": "turn on the stove and put the frying pan on it",
+              "mean_scene_fraction": 0.10281204906204906
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "example": {
+    "condition": "dino_global",
+    "task_id": 52,
+    "scene_setup_id": 25,
+    "trial_id": 4,
+    "success": true,
+    "video_path": "data/libero/videos/libero90_retrieval_final10_global25_disjoint_20260810_211205/dino_global/videos/rollout_task_52_scene_025_trial_004_dino_global_pick_up_the_milk_and_put_it_in_the_basket_success.mp4",
+    "top_source_by_phase": [
+      {
+        "task_id": 50,
+        "instruction": "pick up the alphabet soup and put it in the basket",
+        "slots": 44,
+        "phase_slots": 48
+      },
+      {
+        "task_id": 49,
+        "instruction": "pick up the tomato sauce and put it in the basket",
+        "slots": 24,
+        "phase_slots": 52
+      },
+      {
+        "task_id": 46,
+        "instruction": "pick up the alphabet soup and put it in the basket",
+        "slots": 28,
+        "phase_slots": 52
+      },
+      {
+        "task_id": 52,
+        "instruction": "pick up the milk and put it in the basket",
+        "slots": 50,
+        "phase_slots": 52
+      }
+    ]
+  }
+}

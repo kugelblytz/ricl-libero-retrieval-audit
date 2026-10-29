@@ -1,0 +1,401 @@
+condition,query_phase,source_task,equal_task_scene_fraction,task_count,retrieved_slots,slot_weighted_fraction,method_label,query_phase_label,source_instruction
+dino_global,0,20,0.0,25,0.0,0.0,DINO,Approach / setup,turn on the stove
+dino_global,0,21,0.08,25,756.0,0.052719665271966525,DINO,Approach / setup,turn on the stove and put the frying pan on it
+dino_global,0,24,0.06333684210526316,25,799.0,0.05571827057182706,DINO,Approach / setup,put the black bowl in the bottom drawer of the cabinet
+dino_global,0,25,0.01666315789473684,25,193.0,0.013458856345885634,DINO,Approach / setup,put the black bowl on top of the cabinet
+dino_global,0,28,0.029984643426748687,25,326.0,0.022733612273361226,DINO,Approach / setup,close the top drawer of the cabinet
+dino_global,0,29,0.04109808612440191,25,611.0,0.042608089260808925,DINO,Approach / setup,put the black bowl in the top drawer of the cabinet
+dino_global,0,30,0.029094919115971746,25,323.0,0.022524407252440724,DINO,Approach / setup,put the black bowl on the plate
+dino_global,0,31,0.05982235133287765,25,604.0,0.04211994421199442,DINO,Approach / setup,put the black bowl on top of the cabinet
+dino_global,0,34,0.04,25,708.0,0.049372384937238493,DINO,Approach / setup,put the yellow and white mug to the front of the white mug
+dino_global,0,35,0.04,25,724.0,0.050488145048814506,DINO,Approach / setup,open the microwave
+dino_global,0,43,0.060686337054758115,25,869.0,0.060599721059972106,DINO,Approach / setup,put the white bowl on top of the cabinet
+dino_global,0,44,0.019313662945241894,25,231.0,0.01610878661087866,DINO,Approach / setup,turn on the stove
+dino_global,0,46,0.04064298245614035,25,523.0,0.036471408647140865,DINO,Approach / setup,pick up the alphabet soup and put it in the basket
+dino_global,0,49,0.07014649122807018,25,982.0,0.06847977684797768,DINO,Approach / setup,pick up the tomato sauce and put it in the basket
+dino_global,0,50,0.07162121212121213,25,1244.0,0.08675034867503487,DINO,Approach / setup,pick up the alphabet soup and put it in the basket
+dino_global,0,51,0.0003333333333333333,25,3.0,0.00020920502092050208,DINO,Approach / setup,pick up the butter and put it in the basket
+dino_global,0,52,0.017098086124401914,25,317.0,0.02210599721059972,DINO,Approach / setup,pick up the milk and put it in the basket
+dino_global,0,55,0.031427136021872866,25,507.0,0.03535564853556485,DINO,Approach / setup,pick up the alphabet soup and put it in the tray
+dino_global,0,56,0.05518817878028404,25,992.0,0.06917712691771269,DINO,Approach / setup,pick up the butter and put it in the tray
+dino_global,0,57,0.07224984810511127,25,1118.0,0.07796373779637378,DINO,Approach / setup,pick up the cream cheese and put it in the tray
+dino_global,0,59,0.021661152882205513,25,377.0,0.026290097629009763,DINO,Approach / setup,pick up the tomato sauce and put it in the tray
+dino_global,0,60,0.030131213450292398,25,460.0,0.03207810320781032,DINO,Approach / setup,pick up the black bowl on the left and put it in the tray
+dino_global,0,61,0.030131944444444444,25,465.0,0.032426778242677826,DINO,Approach / setup,pick up the chocolate pudding and put it in the tray
+dino_global,0,68,0.03936842105263158,25,500.0,0.03486750348675035,DINO,Approach / setup,put the yellow and white mug on the right plate
+dino_global,0,69,0.04,25,708.0,0.049372384937238493,DINO,Approach / setup,put the chocolate pudding to the left of the plate
+dino_global,1,20,0.0,25,0.0,0.0,DINO,Contact / grasp / actuate,turn on the stove
+dino_global,1,21,0.08,25,888.0,0.0570694087403599,DINO,Contact / grasp / actuate,turn on the stove and put the frying pan on it
+dino_global,1,24,0.041167857142857145,25,455.0,0.02924164524421594,DINO,Contact / grasp / actuate,put the black bowl in the bottom drawer of the cabinet
+dino_global,1,25,0.03883214285714286,25,641.0,0.041195372750642674,DINO,Contact / grasp / actuate,put the black bowl on top of the cabinet
+dino_global,1,28,0.026892857142857142,25,271.0,0.017416452442159384,DINO,Contact / grasp / actuate,close the top drawer of the cabinet
+dino_global,1,29,0.05970238095238095,25,863.0,0.05546272493573265,DINO,Contact / grasp / actuate,put the black bowl in the top drawer of the cabinet
+dino_global,1,30,0.014735714285714288,25,143.0,0.009190231362467867,DINO,Contact / grasp / actuate,put the black bowl on the plate
+dino_global,1,31,0.058669047619047614,25,783.0,0.05032133676092545,DINO,Contact / grasp / actuate,put the black bowl on top of the cabinet
+dino_global,1,34,0.04,25,752.0,0.04832904884318766,DINO,Contact / grasp / actuate,put the yellow and white mug to the front of the white mug
+dino_global,1,35,0.04,25,772.0,0.04961439588688946,DINO,Contact / grasp / actuate,open the microwave
+dino_global,1,43,0.049756410256410255,25,813.0,0.052249357326478146,DINO,Contact / grasp / actuate,put the white bowl on top of the cabinet
+dino_global,1,44,0.030243589743589743,25,391.0,0.02512853470437018,DINO,Contact / grasp / actuate,turn on the stove
+dino_global,1,46,0.04560769230769231,25,626.0,0.04023136246786632,DINO,Contact / grasp / actuate,pick up the alphabet soup and put it in the basket
+dino_global,1,49,0.06479615384615384,25,987.0,0.0634318766066838,DINO,Contact / grasp / actuate,pick up the tomato sauce and put it in the basket
+dino_global,1,50,0.06540769230769232,25,1214.0,0.07802056555269923,DINO,Contact / grasp / actuate,pick up the alphabet soup and put it in the basket
+dino_global,1,51,0.0020499999999999997,25,41.0,0.002634961439588689,DINO,Contact / grasp / actuate,pick up the butter and put it in the basket
+dino_global,1,52,0.021738461538461536,25,424.0,0.02724935732647815,DINO,Contact / grasp / actuate,pick up the milk and put it in the basket
+dino_global,1,55,0.011625000000000002,25,231.0,0.014845758354755784,DINO,Contact / grasp / actuate,pick up the alphabet soup and put it in the tray
+dino_global,1,56,0.0702,25,1282.0,0.08239074550128535,DINO,Contact / grasp / actuate,pick up the butter and put it in the tray
+dino_global,1,57,0.081175,25,1339.0,0.08605398457583548,DINO,Contact / grasp / actuate,pick up the cream cheese and put it in the tray
+dino_global,1,59,0.0181,25,362.0,0.02326478149100257,DINO,Contact / grasp / actuate,pick up the tomato sauce and put it in the tray
+dino_global,1,60,0.018822222222222226,25,366.0,0.02352185089974293,DINO,Contact / grasp / actuate,pick up the black bowl on the left and put it in the tray
+dino_global,1,61,0.044477777777777776,25,688.0,0.0442159383033419,DINO,Contact / grasp / actuate,pick up the chocolate pudding and put it in the tray
+dino_global,1,68,0.036000000000000004,25,480.0,0.030848329048843187,DINO,Contact / grasp / actuate,put the yellow and white mug on the right plate
+dino_global,1,69,0.04,25,748.0,0.0480719794344473,DINO,Contact / grasp / actuate,put the chocolate pudding to the left of the plate
+dino_global,2,20,0.0,25,0.0,0.0,DINO,Transport / manipulate,turn on the stove
+dino_global,2,21,0.08,25,880.0,0.05449591280653951,DINO,Transport / manipulate,turn on the stove and put the frying pan on it
+dino_global,2,24,0.03482142857142857,25,338.0,0.020931384691602675,DINO,Transport / manipulate,put the black bowl in the bottom drawer of the cabinet
+dino_global,2,25,0.04517857142857142,25,790.0,0.04892246717859797,DINO,Transport / manipulate,put the black bowl on top of the cabinet
+dino_global,2,28,0.048273809523809524,25,474.0,0.029353480307158782,DINO,Transport / manipulate,close the top drawer of the cabinet
+dino_global,2,29,0.04485515873015873,25,488.0,0.03022046073817191,DINO,Transport / manipulate,put the black bowl in the top drawer of the cabinet
+dino_global,2,30,0.006783730158730158,25,98.0,0.0060688630170919,DINO,Transport / manipulate,put the black bowl on the plate
+dino_global,2,31,0.060087301587301585,25,1084.0,0.06712905622987367,DINO,Transport / manipulate,put the black bowl on top of the cabinet
+dino_global,2,34,0.04,25,788.0,0.04879861283131038,DINO,Transport / manipulate,put the yellow and white mug to the front of the white mug
+dino_global,2,35,0.04,25,800.0,0.04954173891503592,DINO,Transport / manipulate,open the microwave
+dino_global,2,43,0.04480952380952381,25,833.0,0.05158533564528115,DINO,Transport / manipulate,put the white bowl on top of the cabinet
+dino_global,2,44,0.035190476190476196,25,419.0,0.02594748575675006,DINO,Transport / manipulate,turn on the stove
+dino_global,2,46,0.04725468648998061,25,645.0,0.03994302700024771,DINO,Transport / manipulate,pick up the alphabet soup and put it in the basket
+dino_global,2,49,0.052904761904761906,25,811.0,0.050222937825117664,DINO,Transport / manipulate,pick up the tomato sauce and put it in the basket
+dino_global,2,50,0.06496470196470196,25,1303.0,0.08069110725786476,DINO,Transport / manipulate,pick up the alphabet soup and put it in the basket
+dino_global,2,51,0.008943722943722943,25,154.0,0.009536784741144414,DINO,Transport / manipulate,pick up the butter and put it in the basket
+dino_global,2,52,0.023032967032967037,25,464.0,0.028734208570720832,DINO,Transport / manipulate,pick up the milk and put it in the basket
+dino_global,2,55,0.006303641456582634,25,122.0,0.0075551151845429775,DINO,Transport / manipulate,pick up the alphabet soup and put it in the tray
+dino_global,2,56,0.07414285714285714,25,1411.0,0.0873792420113946,DINO,Transport / manipulate,pick up the butter and put it in the tray
+dino_global,2,57,0.08530700280112045,25,1481.0,0.09171414416646025,DINO,Transport / manipulate,pick up the cream cheese and put it in the tray
+dino_global,2,59,0.013523809523809525,25,284.0,0.01758731731483775,DINO,Transport / manipulate,pick up the tomato sauce and put it in the tray
+dino_global,2,60,0.015464222052457349,25,261.0,0.016162992321030467,DINO,Transport / manipulate,pick up the black bowl on the left and put it in the tray
+dino_global,2,61,0.049205245734657496,25,874.0,0.05412434976467674,DINO,Transport / manipulate,pick up the chocolate pudding and put it in the tray
+dino_global,2,68,0.03933333333333334,25,570.0,0.03529848897696309,DINO,Transport / manipulate,put the yellow and white mug on the right plate
+dino_global,2,69,0.03961904761904762,25,776.0,0.04805548674758484,DINO,Transport / manipulate,put the chocolate pudding to the left of the plate
+dino_global,3,20,0.0,25,0.0,0.0,DINO,Place / release / finish,turn on the stove
+dino_global,3,21,0.08,25,896.0,0.05733299206552342,DINO,Place / release / finish,turn on the stove and put the frying pan on it
+dino_global,3,24,0.006885714285714285,25,134.0,0.008574353724084976,DINO,Place / release / finish,put the black bowl in the bottom drawer of the cabinet
+dino_global,3,25,0.07311428571428571,25,966.0,0.061812132070642435,DINO,Place / release / finish,put the black bowl on top of the cabinet
+dino_global,3,28,0.05314285714285714,25,524.0,0.033529562324033785,DINO,Place / release / finish,close the top drawer of the cabinet
+dino_global,3,29,0.0351984126984127,25,351.0,0.02245968773995393,DINO,Place / release / finish,put the black bowl in the top drawer of the cabinet
+dino_global,3,30,0.01555,25,219.0,0.01401330944458664,DINO,Place / release / finish,put the black bowl on the plate
+dino_global,3,31,0.05620873015873016,25,988.0,0.06321986178653699,DINO,Place / release / finish,put the black bowl on top of the cabinet
+dino_global,3,34,0.0399,25,754.0,0.0482467366265677,DINO,Place / release / finish,put the yellow and white mug to the front of the white mug
+dino_global,3,35,0.039599999999999996,25,764.0,0.04888661377015613,DINO,Place / release / finish,open the microwave
+dino_global,3,43,0.044199999999999996,25,792.0,0.050678269772203736,DINO,Place / release / finish,put the white bowl on top of the cabinet
+dino_global,3,44,0.0362,25,432.0,0.02764269260302022,DINO,Place / release / finish,turn on the stove
+dino_global,3,46,0.039705555555555556,25,502.0,0.032121832608139236,DINO,Place / release / finish,pick up the alphabet soup and put it in the basket
+dino_global,3,49,0.05310000000000001,25,774.0,0.04952649091374456,DINO,Place / release / finish,pick up the tomato sauce and put it in the basket
+dino_global,3,50,0.05753371628371628,25,1108.0,0.07089838750959816,DINO,Place / release / finish,pick up the alphabet soup and put it in the basket
+dino_global,3,51,0.02302012987012987,25,414.0,0.026490913744561043,DINO,Place / release / finish,pick up the butter and put it in the basket
+dino_global,3,52,0.02269615384615385,25,427.0,0.027322754031226006,DINO,Place / release / finish,pick up the milk and put it in the basket
+dino_global,3,55,0.005695833333333333,25,111.0,0.007102636293831584,DINO,Place / release / finish,pick up the alphabet soup and put it in the tray
+dino_global,3,56,0.08463157894736842,25,1553.0,0.09937292039928333,DINO,Place / release / finish,pick up the butter and put it in the tray
+dino_global,3,57,0.0726781432748538,25,1195.0,0.0764653186588175,DINO,Place / release / finish,pick up the cream cheese and put it in the tray
+dino_global,3,59,0.015899999999999997,25,318.0,0.020348093166112108,DINO,Place / release / finish,pick up the tomato sauce and put it in the tray
+dino_global,3,60,0.0066839285714285716,25,120.0,0.007678525723061172,DINO,Place / release / finish,pick up the black bowl on the left and put it in the tray
+dino_global,3,61,0.058354960317460326,25,974.0,0.06232403378551318,DINO,Place / release / finish,pick up the chocolate pudding and put it in the tray
+dino_global,3,68,0.042800000000000005,25,620.0,0.039672382902482727,DINO,Place / release / finish,put the yellow and white mug on the right plate
+dino_global,3,69,0.037200000000000004,25,692.0,0.044279498336319424,DINO,Place / release / finish,put the chocolate pudding to the left of the plate
+dino_state_global,0,20,0.0,25,0.0,0.0,DINO+State,Approach / setup,turn on the stove
+dino_state_global,0,21,0.08115789473684211,25,974.0,0.0660607704829083,DINO+State,Approach / setup,turn on the stove and put the frying pan on it
+dino_state_global,0,24,0.06476315789473683,25,837.0,0.056768855127509496,DINO+State,Approach / setup,put the black bowl in the bottom drawer of the cabinet
+dino_state_global,0,25,0.015710526315789473,25,188.0,0.012750949538795442,DINO+State,Approach / setup,put the black bowl on top of the cabinet
+dino_state_global,0,28,0.040543859649122806,25,345.0,0.023399348887683125,DINO+State,Approach / setup,close the top drawer of the cabinet
+dino_state_global,0,29,0.053228947368421056,25,727.0,0.04930819316332067,DINO+State,Approach / setup,put the black bowl in the top drawer of the cabinet
+dino_state_global,0,30,0.029519298245614035,25,353.0,0.023941942485078676,DINO+State,Approach / setup,put the black bowl on the plate
+dino_state_global,0,31,0.04107631578947369,25,426.0,0.028893109061313076,DINO+State,Approach / setup,put the black bowl on top of the cabinet
+dino_state_global,0,34,0.041947368421052636,25,749.0,0.05080032555615844,DINO+State,Approach / setup,put the yellow and white mug to the front of the white mug
+dino_state_global,0,35,0.03536842105263158,25,672.0,0.04557786218122626,DINO+State,Approach / setup,open the microwave
+dino_state_global,0,43,0.06082456140350878,25,1039.0,0.07046934346174716,DINO+State,Approach / setup,put the white bowl on top of the cabinet
+dino_state_global,0,44,0.015859649122807018,25,250.0,0.01695604991861096,DINO+State,Approach / setup,turn on the stove
+dino_state_global,0,46,0.03398008563074353,25,425.0,0.02882528486163863,DINO+State,Approach / setup,pick up the alphabet soup and put it in the basket
+dino_state_global,0,49,0.07454623015873016,25,1185.0,0.08037167661421596,DINO+State,Approach / setup,pick up the tomato sauce and put it in the basket
+dino_state_global,0,50,0.050760150375939846,25,880.0,0.05968529571351058,DINO+State,Approach / setup,pick up the alphabet soup and put it in the basket
+dino_state_global,0,51,0.00031578947368421053,25,6.0,0.00040694519804666303,DINO+State,Approach / setup,pick up the butter and put it in the basket
+dino_state_global,0,52,0.022758646616541353,25,398.0,0.02699403147042865,DINO+State,Approach / setup,pick up the milk and put it in the basket
+dino_state_global,0,55,0.03179505964451785,25,480.0,0.032555615843733045,DINO+State,Approach / setup,pick up the alphabet soup and put it in the tray
+dino_state_global,0,56,0.06933410449199923,25,1195.0,0.08104991861096039,DINO+State,Approach / setup,pick up the butter and put it in the tray
+dino_state_global,0,57,0.06068966085084506,25,939.0,0.06368692349430277,DINO+State,Approach / setup,pick up the cream cheese and put it in the tray
+dino_state_global,0,59,0.0346555845212579,25,491.0,0.03330168204015193,DINO+State,Approach / setup,pick up the tomato sauce and put it in the tray
+dino_state_global,0,60,0.02033212990140235,25,299.0,0.020279435702658707,DINO+State,Approach / setup,pick up the black bowl on the left and put it in the tray
+dino_state_global,0,61,0.04962203201854905,25,649.0,0.04401790558871405,DINO+State,Approach / setup,pick up the chocolate pudding and put it in the tray
+dino_state_global,0,68,0.040210526315789474,25,672.0,0.04557786218122626,DINO+State,Approach / setup,put the yellow and white mug on the right plate
+dino_state_global,0,69,0.031,25,565.0,0.03832067281606077,DINO+State,Approach / setup,put the chocolate pudding to the left of the plate
+dino_state_global,1,20,5e-05,25,1.0,6.273525721455458e-05,DINO+State,Contact / grasp / actuate,turn on the stove
+dino_state_global,1,21,0.09300000000000001,25,1312.0,0.08230865746549561,DINO+State,Contact / grasp / actuate,turn on the stove and put the frying pan on it
+dino_state_global,1,24,0.043760714285714285,25,458.0,0.028732747804265997,DINO+State,Contact / grasp / actuate,put the black bowl in the bottom drawer of the cabinet
+dino_state_global,1,25,0.04233928571428572,25,768.0,0.04818067754077792,DINO+State,Contact / grasp / actuate,put the black bowl on top of the cabinet
+dino_state_global,1,28,0.021442857142857142,25,182.0,0.011417816813048933,DINO+State,Contact / grasp / actuate,close the top drawer of the cabinet
+dino_state_global,1,29,0.0775492673992674,25,1164.0,0.07302383939774153,DINO+State,Contact / grasp / actuate,put the black bowl in the top drawer of the cabinet
+dino_state_global,1,30,0.020499999999999997,25,239.0,0.014993726474278544,DINO+State,Contact / grasp / actuate,put the black bowl on the plate
+dino_state_global,1,31,0.04935787545787546,25,568.0,0.035633626097867,DINO+State,Contact / grasp / actuate,put the black bowl on top of the cabinet
+dino_state_global,1,34,0.02955,25,547.0,0.034316185696361357,DINO+State,Contact / grasp / actuate,put the yellow and white mug to the front of the white mug
+dino_state_global,1,35,0.0263,25,526.0,0.03299874529485571,DINO+State,Contact / grasp / actuate,open the microwave
+dino_state_global,1,43,0.04915,25,931.0,0.05840652446675031,DINO+State,Contact / grasp / actuate,put the white bowl on top of the cabinet
+dino_state_global,1,44,0.026999999999999996,25,432.0,0.027101631116687577,DINO+State,Contact / grasp / actuate,turn on the stove
+dino_state_global,1,46,0.030833910533910536,25,369.0,0.02314930991217064,DINO+State,Contact / grasp / actuate,pick up the alphabet soup and put it in the basket
+dino_state_global,1,49,0.06692063492063492,25,1148.0,0.07202007528230865,DINO+State,Contact / grasp / actuate,pick up the tomato sauce and put it in the basket
+dino_state_global,1,50,0.04112777777777778,25,753.0,0.0472396486825596,DINO+State,Contact / grasp / actuate,pick up the alphabet soup and put it in the basket
+dino_state_global,1,51,0.018066666666666665,25,356.0,0.02233375156838143,DINO+State,Contact / grasp / actuate,pick up the butter and put it in the basket
+dino_state_global,1,52,0.023957575757575754,25,459.0,0.028795483061480553,DINO+State,Contact / grasp / actuate,pick up the milk and put it in the basket
+dino_state_global,1,55,0.01870699096225412,25,337.0,0.021141781681304893,DINO+State,Contact / grasp / actuate,pick up the alphabet soup and put it in the tray
+dino_state_global,1,56,0.07438471177944862,25,1237.0,0.07760351317440402,DINO+State,Contact / grasp / actuate,pick up the butter and put it in the tray
+dino_state_global,1,57,0.09102935888071335,25,1554.0,0.09749058971141782,DINO+State,Contact / grasp / actuate,pick up the cream cheese and put it in the tray
+dino_state_global,1,59,0.009600000000000001,25,148.0,0.009284818067754079,DINO+State,Contact / grasp / actuate,pick up the tomato sauce and put it in the tray
+dino_state_global,1,60,0.021541926619132505,25,415.0,0.026035131744040152,DINO+State,Contact / grasp / actuate,pick up the black bowl on the left and put it in the tray
+dino_state_global,1,61,0.05843044610188573,25,836.0,0.05244667503136763,DINO+State,Contact / grasp / actuate,pick up the chocolate pudding and put it in the tray
+dino_state_global,1,68,0.036699999999999997,25,650.0,0.04077791718946048,DINO+State,Contact / grasp / actuate,put the yellow and white mug on the right plate
+dino_state_global,1,69,0.0287,25,550.0,0.03450439146800502,DINO+State,Contact / grasp / actuate,put the chocolate pudding to the left of the plate
+dino_state_global,2,20,0.0,25,0.0,0.0,DINO+State,Transport / manipulate,turn on the stove
+dino_state_global,2,21,0.09533333333333333,25,1402.0,0.0847027549540841,DINO+State,Transport / manipulate,turn on the stove and put the frying pan on it
+dino_state_global,2,24,0.03308603896103896,25,289.0,0.01746012566457226,DINO+State,Transport / manipulate,put the black bowl in the bottom drawer of the cabinet
+dino_state_global,2,25,0.05481872294372295,25,1029.0,0.06216771387143548,DINO+State,Transport / manipulate,put the black bowl on top of the cabinet
+dino_state_global,2,28,0.03885476190476191,25,280.0,0.016916384726921217,DINO+State,Transport / manipulate,close the top drawer of the cabinet
+dino_state_global,2,29,0.05666016483516484,25,759.0,0.0458554857419043,DINO+State,Transport / manipulate,put the black bowl in the top drawer of the cabinet
+dino_state_global,2,30,0.016678571428571428,25,305.0,0.018426776220396325,DINO+State,Transport / manipulate,put the black bowl on the plate
+dino_state_global,2,31,0.05965888278388278,25,948.0,0.05727404543257612,DINO+State,Transport / manipulate,put the black bowl on top of the cabinet
+dino_state_global,2,34,0.026576190476190472,25,507.0,0.030630739487675206,DINO+State,Transport / manipulate,put the yellow and white mug to the front of the white mug
+dino_state_global,2,35,0.020238095238095236,25,425.0,0.02567665538907685,DINO+State,Transport / manipulate,open the microwave
+dino_state_global,2,43,0.04271428571428571,25,853.0,0.05153455775737071,DINO+State,Transport / manipulate,put the white bowl on top of the cabinet
+dino_state_global,2,44,0.038809523809523815,25,687.0,0.04150555824069599,DINO+State,Transport / manipulate,turn on the stove
+dino_state_global,2,46,0.03281060606060606,25,411.0,0.02483083615273079,DINO+State,Transport / manipulate,pick up the alphabet soup and put it in the basket
+dino_state_global,2,49,0.062,25,1106.0,0.06681971967133882,DINO+State,Transport / manipulate,pick up the tomato sauce and put it in the basket
+dino_state_global,2,50,0.05180952380952381,25,1012.0,0.061140647655872404,DINO+State,Transport / manipulate,pick up the alphabet soup and put it in the basket
+dino_state_global,2,51,0.028266666666666666,25,584.0,0.03528274528757854,DINO+State,Transport / manipulate,pick up the butter and put it in the basket
+dino_state_global,2,52,0.011094155844155844,25,207.0,0.0125060415659739,DINO+State,Transport / manipulate,pick up the milk and put it in the basket
+dino_state_global,2,55,0.021514757481940143,25,412.0,0.024891251812469792,DINO+State,Transport / manipulate,pick up the alphabet soup and put it in the tray
+dino_state_global,2,56,0.07918421052631579,25,1329.0,0.08029241179313679,DINO+State,Transport / manipulate,pick up the butter and put it in the tray
+dino_state_global,2,57,0.06235023163970532,25,982.0,0.05932817786370227,DINO+State,Transport / manipulate,pick up the cream cheese and put it in the tray
+dino_state_global,2,59,0.024436090225563912,25,462.0,0.027912034799420008,DINO+State,Transport / manipulate,pick up the tomato sauce and put it in the tray
+dino_state_global,2,60,0.027514565826330536,25,521.0,0.03147655872402127,DINO+State,Transport / manipulate,pick up the black bowl on the left and put it in the tray
+dino_state_global,2,61,0.04935252525252525,25,752.0,0.04543257612373127,DINO+State,Transport / manipulate,pick up the chocolate pudding and put it in the tray
+dino_state_global,2,68,0.035761904761904766,25,655.0,0.03957225712904785,DINO+State,Transport / manipulate,put the yellow and white mug on the right plate
+dino_state_global,2,69,0.030476190476190476,25,635.0,0.038363943934267765,DINO+State,Transport / manipulate,put the chocolate pudding to the left of the plate
+dino_state_global,3,20,0.0,25,0.0,0.0,DINO+State,Place / release / finish,turn on the stove
+dino_state_global,3,21,0.09269999999999999,25,1318.0,0.08241620810405202,DINO+State,Place / release / finish,turn on the stove and put the frying pan on it
+dino_state_global,3,24,0.006141666666666667,25,84.0,0.005252626313156579,DINO+State,Place / release / finish,put the black bowl in the bottom drawer of the cabinet
+dino_state_global,3,25,0.08245833333333334,25,1200.0,0.0750375187593797,DINO+State,Place / release / finish,put the black bowl on top of the cabinet
+dino_state_global,3,28,0.03663333333333334,25,209.0,0.013069034517258628,DINO+State,Place / release / finish,close the top drawer of the cabinet
+dino_state_global,3,29,0.05493772893772894,25,609.0,0.03808154077038519,DINO+State,Place / release / finish,put the black bowl in the top drawer of the cabinet
+dino_state_global,3,30,0.023676739926739927,25,336.0,0.021010505252626314,DINO+State,Place / release / finish,put the black bowl on the plate
+dino_state_global,3,31,0.048743956043956045,25,912.0,0.057028514257128564,DINO+State,Place / release / finish,put the black bowl on top of the cabinet
+dino_state_global,3,34,0.027008241758241756,25,494.0,0.030890445222611307,DINO+State,Place / release / finish,put the yellow and white mug to the front of the white mug
+dino_state_global,3,35,0.01895,25,379.0,0.02369934967483742,DINO+State,Place / release / finish,open the microwave
+dino_state_global,3,43,0.0455,25,870.0,0.054402201100550274,DINO+State,Place / release / finish,put the white bowl on top of the cabinet
+dino_state_global,3,44,0.04655,25,815.0,0.05096298149074537,DINO+State,Place / release / finish,turn on the stove
+dino_state_global,3,46,0.02979920634920635,25,361.0,0.022573786893446725,DINO+State,Place / release / finish,pick up the alphabet soup and put it in the basket
+dino_state_global,3,49,0.061872222222222224,25,1076.0,0.06728364182091046,DINO+State,Place / release / finish,pick up the tomato sauce and put it in the basket
+dino_state_global,3,50,0.0369,25,709.0,0.04433466733366683,DINO+State,Place / release / finish,pick up the alphabet soup and put it in the basket
+dino_state_global,3,51,0.04327218045112782,25,788.0,0.04927463731865933,DINO+State,Place / release / finish,pick up the butter and put it in the basket
+dino_state_global,3,52,0.01775,25,331.0,0.02069784892446223,DINO+State,Place / release / finish,pick up the milk and put it in the basket
+dino_state_global,3,55,0.016244444444444447,25,289.0,0.018071535767883944,DINO+State,Place / release / finish,pick up the alphabet soup and put it in the tray
+dino_state_global,3,56,0.06895701754385965,25,1188.0,0.0742871435717859,DINO+State,Place / release / finish,pick up the butter and put it in the tray
+dino_state_global,3,57,0.05728531746031746,25,785.0,0.04908704352176088,DINO+State,Place / release / finish,pick up the cream cheese and put it in the tray
+dino_state_global,3,59,0.0352249686716792,25,675.0,0.04220860430215108,DINO+State,Place / release / finish,pick up the tomato sauce and put it in the tray
+dino_state_global,3,60,0.03313055555555556,25,613.0,0.03833166583291646,DINO+State,Place / release / finish,pick up the black bowl on the left and put it in the tray
+dino_state_global,3,61,0.04875694444444444,25,690.0,0.04314657328664332,DINO+State,Place / release / finish,pick up the chocolate pudding and put it in the tray
+dino_state_global,3,68,0.03685,25,653.0,0.04083291645822911,DINO+State,Place / release / finish,put the yellow and white mug on the right plate
+dino_state_global,3,69,0.03065714285714286,25,608.0,0.03801900950475238,DINO+State,Place / release / finish,put the chocolate pudding to the left of the plate
+pi_global,0,20,0.01464191072085809,25,109.0,0.007706447963800905,pi0-FF,Approach / setup,turn on the stove
+pi_global,0,21,0.0687594912827111,25,789.0,0.055783371040723985,pi0-FF,Approach / setup,turn on the stove and put the frying pan on it
+pi_global,0,24,0.05296842105263158,25,828.0,0.05854072398190045,pi0-FF,Approach / setup,put the black bowl in the bottom drawer of the cabinet
+pi_global,0,25,0.02832229102167183,25,289.0,0.020432692307692308,pi0-FF,Approach / setup,put the black bowl on top of the cabinet
+pi_global,0,28,0.03725233918128655,25,370.0,0.02615950226244344,pi0-FF,Approach / setup,close the top drawer of the cabinet
+pi_global,0,29,0.055869725596041385,25,579.0,0.04093608597285068,pi0-FF,Approach / setup,put the black bowl in the top drawer of the cabinet
+pi_global,0,30,0.03872433648223122,25,354.0,0.025028280542986427,pi0-FF,Approach / setup,put the black bowl on the plate
+pi_global,0,31,0.04270555555555555,25,500.0,0.035350678733031674,pi0-FF,Approach / setup,put the black bowl on top of the cabinet
+pi_global,0,34,0.03651578947368421,25,691.0,0.048854638009049774,pi0-FF,Approach / setup,put the yellow and white mug to the front of the white mug
+pi_global,0,35,0.04181052281052281,25,765.0,0.054086538461538464,pi0-FF,Approach / setup,open the microwave
+pi_global,0,43,0.05044736842105263,25,832.0,0.058823529411764705,pi0-FF,Approach / setup,put the white bowl on top of the cabinet
+pi_global,0,44,0.028631105736368893,25,251.0,0.0177460407239819,pi0-FF,Approach / setup,turn on the stove
+pi_global,0,46,0.03931497975708502,25,594.0,0.04199660633484163,pi0-FF,Approach / setup,pick up the alphabet soup and put it in the basket
+pi_global,0,49,0.03608444976076555,25,478.0,0.03379524886877828,pi0-FF,Approach / setup,pick up the tomato sauce and put it in the basket
+pi_global,0,50,0.05032186276056245,25,847.0,0.05988404977375566,pi0-FF,Approach / setup,pick up the alphabet soup and put it in the basket
+pi_global,0,51,0.043178447455537235,25,743.0,0.05253110859728507,pi0-FF,Approach / setup,pick up the butter and put it in the basket
+pi_global,0,52,0.021724220902936072,25,387.0,0.027361425339366516,pi0-FF,Approach / setup,pick up the milk and put it in the basket
+pi_global,0,55,0.033298784037599824,25,512.0,0.03619909502262444,pi0-FF,Approach / setup,pick up the alphabet soup and put it in the tray
+pi_global,0,56,0.045307917606988816,25,727.0,0.05139988687782805,pi0-FF,Approach / setup,pick up the butter and put it in the tray
+pi_global,0,57,0.05939035265130466,25,1006.0,0.07112556561085973,pi0-FF,Approach / setup,pick up the cream cheese and put it in the tray
+pi_global,0,59,0.016775159489633172,25,283.0,0.020008484162895926,pi0-FF,Approach / setup,pick up the tomato sauce and put it in the tray
+pi_global,0,60,0.019682826822300506,25,252.0,0.017816742081447963,pi0-FF,Approach / setup,pick up the black bowl on the left and put it in the tray
+pi_global,0,61,0.059680756708891385,25,909.0,0.06426753393665158,pi0-FF,Approach / setup,pick up the chocolate pudding and put it in the tray
+pi_global,0,68,0.034309311740890684,25,382.0,0.0270079185520362,pi0-FF,Approach / setup,put the yellow and white mug on the right plate
+pi_global,0,69,0.04428207297088876,25,667.0,0.04715780542986425,pi0-FF,Approach / setup,put the chocolate pudding to the left of the plate
+pi_global,1,20,0.011705288175876412,25,230.0,0.014985665884805838,pi0-FF,Contact / grasp / actuate,turn on the stove
+pi_global,1,21,0.09157039072039072,25,1175.0,0.07655720615063852,pi0-FF,Contact / grasp / actuate,turn on the stove and put the frying pan on it
+pi_global,1,24,0.04935000261176732,25,696.0,0.04534792806880375,pi0-FF,Contact / grasp / actuate,put the black bowl in the bottom drawer of the cabinet
+pi_global,1,25,0.03125744843391902,25,483.0,0.03146989835809226,pi0-FF,Contact / grasp / actuate,put the black bowl on top of the cabinet
+pi_global,1,28,0.025933513708513708,25,263.0,0.017135783163930152,pi0-FF,Contact / grasp / actuate,close the top drawer of the cabinet
+pi_global,1,29,0.05201065470477235,25,546.0,0.03557466770914777,pi0-FF,Contact / grasp / actuate,put the black bowl in the top drawer of the cabinet
+pi_global,1,30,0.03134244089244089,25,248.0,0.016158457127964557,pi0-FF,Contact / grasp / actuate,put the black bowl on the plate
+pi_global,1,31,0.04671737967914438,25,649.0,0.042285639822778213,pi0-FF,Contact / grasp / actuate,put the black bowl on top of the cabinet
+pi_global,1,34,0.014450000000000001,25,289.0,0.01882981495960386,pi0-FF,Contact / grasp / actuate,put the yellow and white mug to the front of the white mug
+pi_global,1,35,0.045705349062702,25,842.0,0.05486056815220224,pi0-FF,Contact / grasp / actuate,open the microwave
+pi_global,1,43,0.05469941218911807,25,1011.0,0.06587177482408131,pi0-FF,Contact / grasp / actuate,put the white bowl on top of the cabinet
+pi_global,1,44,0.03166387991093873,25,323.0,0.021045087307792545,pi0-FF,Contact / grasp / actuate,turn on the stove
+pi_global,1,46,0.04828837535014005,25,643.0,0.041894709408391975,pi0-FF,Contact / grasp / actuate,pick up the alphabet soup and put it in the basket
+pi_global,1,49,0.027144283167812578,25,529.0,0.03446703153505343,pi0-FF,Contact / grasp / actuate,pick up the tomato sauce and put it in the basket
+pi_global,1,50,0.023079416773457023,25,379.0,0.024693771175397446,pi0-FF,Contact / grasp / actuate,pick up the alphabet soup and put it in the basket
+pi_global,1,51,0.026765299612668034,25,475.0,0.030948657805577273,pi0-FF,Contact / grasp / actuate,pick up the butter and put it in the basket
+pi_global,1,52,0.02048081165480546,25,387.0,0.02521501172791243,pi0-FF,Contact / grasp / actuate,pick up the milk and put it in the basket
+pi_global,1,55,0.008373076923076922,25,140.0,0.009121709669012249,pi0-FF,Contact / grasp / actuate,pick up the alphabet soup and put it in the tray
+pi_global,1,56,0.0370692470927765,25,605.0,0.03941881678394579,pi0-FF,Contact / grasp / actuate,pick up the butter and put it in the tray
+pi_global,1,57,0.08083816447570318,25,1460.0,0.09512640083398488,pi0-FF,Contact / grasp / actuate,pick up the cream cheese and put it in the tray
+pi_global,1,59,0.008282478632478633,25,142.0,0.009252019807140995,pi0-FF,Contact / grasp / actuate,pick up the tomato sauce and put it in the tray
+pi_global,1,60,0.023961141636141638,25,453.0,0.029515246286161062,pi0-FF,Contact / grasp / actuate,pick up the black bowl on the left and put it in the tray
+pi_global,1,61,0.13246551389786684,25,2276.0,0.14829293719051342,pi0-FF,Contact / grasp / actuate,pick up the chocolate pudding and put it in the tray
+pi_global,1,68,0.03469805194805195,25,430.0,0.02801667969768048,pi0-FF,Contact / grasp / actuate,put the yellow and white mug on the right plate
+pi_global,1,69,0.042148378745437566,25,674.0,0.04391451654938754,pi0-FF,Contact / grasp / actuate,put the chocolate pudding to the left of the plate
+pi_global,2,20,0.03143571428571429,25,462.0,0.0289401152593335,pi0-FF,Transport / manipulate,turn on the stove
+pi_global,2,21,0.09760525210084033,25,1552.0,0.09721874216988223,pi0-FF,Transport / manipulate,turn on the stove and put the frying pan on it
+pi_global,2,24,0.05004924242424243,25,681.0,0.042658481583563015,pi0-FF,Transport / manipulate,put the black bowl in the bottom drawer of the cabinet
+pi_global,2,25,0.03242831678125796,25,628.0,0.039338511651215234,pi0-FF,Transport / manipulate,put the black bowl on top of the cabinet
+pi_global,2,28,0.04581709956709957,25,418.0,0.026183913806063643,pi0-FF,Transport / manipulate,close the top drawer of the cabinet
+pi_global,2,29,0.041920087265675504,25,437.0,0.027374091706339265,pi0-FF,Transport / manipulate,put the black bowl in the top drawer of the cabinet
+pi_global,2,30,0.01895292207792208,25,233.0,0.01459533951390629,pi0-FF,Transport / manipulate,put the black bowl on the plate
+pi_global,2,31,0.036200757575757574,25,482.0,0.03019293410172889,pi0-FF,Transport / manipulate,put the black bowl on top of the cabinet
+pi_global,2,34,0.016285714285714285,25,331.0,0.0207341518416437,pi0-FF,Transport / manipulate,put the yellow and white mug to the front of the white mug
+pi_global,2,35,0.0360952380952381,25,731.0,0.04579052868955149,pi0-FF,Transport / manipulate,open the microwave
+pi_global,2,43,0.0488095238095238,25,945.0,0.05919569030318216,pi0-FF,Transport / manipulate,put the white bowl on top of the cabinet
+pi_global,2,44,0.0321547619047619,25,314.0,0.019669255825607617,pi0-FF,Transport / manipulate,turn on the stove
+pi_global,2,46,0.05377846369316958,25,794.0,0.04973690804309697,pi0-FF,Transport / manipulate,pick up the alphabet soup and put it in the basket
+pi_global,2,49,0.01955262080540718,25,377.0,0.023615635179153095,pi0-FF,Transport / manipulate,pick up the tomato sauce and put it in the basket
+pi_global,2,50,0.027019550384256266,25,490.0,0.030694061638687046,pi0-FF,Transport / manipulate,pick up the alphabet soup and put it in the basket
+pi_global,2,51,0.019775501089897375,25,376.0,0.023552994237033324,pi0-FF,Transport / manipulate,pick up the butter and put it in the basket
+pi_global,2,52,0.02820448419829225,25,520.0,0.03257328990228013,pi0-FF,Transport / manipulate,pick up the milk and put it in the basket
+pi_global,2,55,0.013484126984126986,25,217.0,0.013593084439989977,pi0-FF,Transport / manipulate,pick up the alphabet soup and put it in the tray
+pi_global,2,56,0.04036920222879975,25,670.0,0.04196943122024555,pi0-FF,Transport / manipulate,pick up the butter and put it in the tray
+pi_global,2,57,0.05889117807716879,25,1036.0,0.06489601603608118,pi0-FF,Transport / manipulate,pick up the cream cheese and put it in the tray
+pi_global,2,59,0.01141068376068376,25,201.0,0.012590829366073666,pi0-FF,Transport / manipulate,pick up the tomato sauce and put it in the tray
+pi_global,2,60,0.04806466278819219,25,923.0,0.05781758957654723,pi0-FF,Transport / manipulate,pick up the black bowl on the left and put it in the tray
+pi_global,2,61,0.13015438022589726,25,2292.0,0.14357303933851165,pi0-FF,Transport / manipulate,pick up the chocolate pudding and put it in the tray
+pi_global,2,68,0.027430952380952386,25,292.0,0.018291155098972688,pi0-FF,Transport / manipulate,put the yellow and white mug on the right plate
+pi_global,2,69,0.03410956320940841,25,562.0,0.03520420947131045,pi0-FF,Transport / manipulate,put the chocolate pudding to the left of the plate
+pi_global,3,20,0.050943347338935574,25,531.0,0.03445367246301583,pi0-FF,Place / release / finish,turn on the stove
+pi_global,3,21,0.11642173202614378,25,2019.0,0.13100181676615624,pi0-FF,Place / release / finish,turn on the stove and put the frying pan on it
+pi_global,3,24,0.045854986679986685,25,741.0,0.04807941863483,pi0-FF,Place / release / finish,put the black bowl in the bottom drawer of the cabinet
+pi_global,3,25,0.062646939824881,25,985.0,0.06391123799636647,pi0-FF,Place / release / finish,put the black bowl on top of the cabinet
+pi_global,3,28,0.045200000000000004,25,308.0,0.019984427718660783,pi0-FF,Place / release / finish,close the top drawer of the cabinet
+pi_global,3,29,0.038360256410256414,25,370.0,0.024007267064624967,pi0-FF,Place / release / finish,put the black bowl in the top drawer of the cabinet
+pi_global,3,30,0.030865389185977418,25,483.0,0.03133921619517259,pi0-FF,Place / release / finish,put the black bowl on the plate
+pi_global,3,31,0.02250451117509941,25,289.0,0.0187516221126395,pi0-FF,Place / release / finish,put the black bowl on top of the cabinet
+pi_global,3,34,0.0188375,25,375.0,0.024331689592525303,pi0-FF,Place / release / finish,put the yellow and white mug to the front of the white mug
+pi_global,3,35,0.027999999999999997,25,560.0,0.03633532312483779,pi0-FF,Place / release / finish,open the microwave
+pi_global,3,43,0.0515895751307516,25,976.0,0.06332727744614586,pi0-FF,Place / release / finish,put the white bowl on top of the cabinet
+pi_global,3,44,0.0204,25,223.0,0.014469244744355047,pi0-FF,Place / release / finish,turn on the stove
+pi_global,3,46,0.03179091970121382,25,472.0,0.03062548663379185,pi0-FF,Place / release / finish,pick up the alphabet soup and put it in the basket
+pi_global,3,49,0.023175422290128173,25,307.0,0.019919543213080718,pi0-FF,Place / release / finish,pick up the tomato sauce and put it in the basket
+pi_global,3,50,0.02826121553884712,25,470.0,0.030495717622631716,pi0-FF,Place / release / finish,pick up the alphabet soup and put it in the basket
+pi_global,3,51,0.027727694613607926,25,536.0,0.03477809499091617,pi0-FF,Place / release / finish,pick up the butter and put it in the basket
+pi_global,3,52,0.02700605301990751,25,417.0,0.027056838826888138,pi0-FF,Place / release / finish,pick up the milk and put it in the basket
+pi_global,3,55,0.008458477633477634,25,140.0,0.009083830781209447,pi0-FF,Place / release / finish,pick up the alphabet soup and put it in the tray
+pi_global,3,56,0.03787364886575413,25,695.0,0.0450947313781469,pi0-FF,Place / release / finish,pick up the butter and put it in the tray
+pi_global,3,57,0.05263997123877155,25,763.0,0.04950687775759149,pi0-FF,Place / release / finish,pick up the cream cheese and put it in the tray
+pi_global,3,59,0.011848809523809525,25,174.0,0.011289903970931742,pi0-FF,Place / release / finish,pick up the tomato sauce and put it in the tray
+pi_global,3,60,0.055799438878115344,25,989.0,0.06417077601868673,pi0-FF,Place / release / finish,pick up the black bowl on the left and put it in the tray
+pi_global,3,61,0.11044099529211758,25,1920.0,0.12457825071372956,pi0-FF,Place / release / finish,pick up the chocolate pudding and put it in the tray
+pi_global,3,68,0.027090896358543417,25,237.0,0.015377627822475993,pi0-FF,Place / release / finish,put the yellow and white mug on the right plate
+pi_global,3,69,0.02626221927367438,25,432.0,0.028030106410589152,pi0-FF,Place / release / finish,put the chocolate pudding to the left of the plate
+random_global,0,20,0.029113719291544368,25,439.0,0.02736907730673317,Random,Approach / setup,turn on the stove
+random_global,0,21,0.08124505113050004,25,1324.0,0.08254364089775561,Random,Approach / setup,turn on the stove and put the frying pan on it
+random_global,0,24,0.038509875122297726,25,599.0,0.03734413965087282,Random,Approach / setup,put the black bowl in the bottom drawer of the cabinet
+random_global,0,25,0.04633674817614446,25,742.0,0.04625935162094763,Random,Approach / setup,put the black bowl on top of the cabinet
+random_global,0,28,0.020708206791488527,25,350.0,0.021820448877805487,Random,Approach / setup,close the top drawer of the cabinet
+random_global,0,29,0.03646072634795545,25,564.0,0.03516209476309227,Random,Approach / setup,put the black bowl in the top drawer of the cabinet
+random_global,0,30,0.03590844222856607,25,598.0,0.037281795511221946,Random,Approach / setup,put the black bowl on the plate
+random_global,0,31,0.044221388754863984,25,731.0,0.04557356608478803,Random,Approach / setup,put the black bowl on top of the cabinet
+random_global,0,34,0.03521554046658536,25,577.0,0.03597256857855362,Random,Approach / setup,put the yellow and white mug to the front of the white mug
+random_global,0,35,0.03871122760108828,25,650.0,0.040523690773067333,Random,Approach / setup,open the microwave
+random_global,0,43,0.04294709417259726,25,688.0,0.0428927680798005,Random,Approach / setup,put the white bowl on top of the cabinet
+random_global,0,44,0.07373889246288627,25,1172.0,0.07306733167082294,Random,Approach / setup,turn on the stove
+random_global,0,46,0.03786348201162443,25,614.0,0.03827930174563591,Random,Approach / setup,pick up the alphabet soup and put it in the basket
+random_global,0,49,0.046206727379947195,25,714.0,0.04451371571072319,Random,Approach / setup,pick up the tomato sauce and put it in the basket
+random_global,0,50,0.04163434131228248,25,654.0,0.040773067331670826,Random,Approach / setup,pick up the alphabet soup and put it in the basket
+random_global,0,51,0.037202759125978944,25,588.0,0.036658354114713215,Random,Approach / setup,pick up the butter and put it in the basket
+random_global,0,52,0.033655153425006364,25,536.0,0.03341645885286783,Random,Approach / setup,pick up the milk and put it in the basket
+random_global,0,55,0.03438425927787383,25,540.0,0.03366583541147132,Random,Approach / setup,pick up the alphabet soup and put it in the tray
+random_global,0,56,0.03086620439244278,25,490.0,0.03054862842892768,Random,Approach / setup,pick up the butter and put it in the tray
+random_global,0,57,0.04344226665147717,25,688.0,0.0428927680798005,Random,Approach / setup,pick up the cream cheese and put it in the tray
+random_global,0,59,0.032945214082443185,25,537.0,0.0334788029925187,Random,Approach / setup,pick up the tomato sauce and put it in the tray
+random_global,0,60,0.03055286830043022,25,492.0,0.030673316708229426,Random,Approach / setup,pick up the black bowl on the left and put it in the tray
+random_global,0,61,0.044787279584880206,25,720.0,0.04488778054862843,Random,Approach / setup,pick up the chocolate pudding and put it in the tray
+random_global,0,68,0.029728505979744368,25,480.0,0.029925187032418952,Random,Approach / setup,put the yellow and white mug on the right plate
+random_global,0,69,0.033614025929351005,25,553.0,0.03447630922693267,Random,Approach / setup,put the chocolate pudding to the left of the plate
+random_global,1,20,0.026048419880772822,25,436.0,0.02537834691501746,Random,Contact / grasp / actuate,turn on the stove
+random_global,1,21,0.07918325334795923,25,1373.0,0.079918509895227,Random,Contact / grasp / actuate,turn on the stove and put the frying pan on it
+random_global,1,24,0.03471883892251539,25,606.0,0.03527357392316647,Random,Contact / grasp / actuate,put the black bowl in the bottom drawer of the cabinet
+random_global,1,25,0.04469964406508524,25,792.0,0.04610011641443539,Random,Contact / grasp / actuate,put the black bowl on top of the cabinet
+random_global,1,28,0.022648574464750933,25,385.0,0.022409778812572757,Random,Contact / grasp / actuate,close the top drawer of the cabinet
+random_global,1,29,0.03431696204122675,25,591.0,0.03440046565774156,Random,Contact / grasp / actuate,put the black bowl in the top drawer of the cabinet
+random_global,1,30,0.035127076763106176,25,613.0,0.03568102444703143,Random,Contact / grasp / actuate,put the black bowl on the plate
+random_global,1,31,0.04032410865278512,25,684.0,0.039813736903376015,Random,Contact / grasp / actuate,put the black bowl on top of the cabinet
+random_global,1,34,0.033225197678138856,25,583.0,0.03393480791618161,Random,Contact / grasp / actuate,put the yellow and white mug to the front of the white mug
+random_global,1,35,0.043157754255548374,25,743.0,0.04324796274738067,Random,Contact / grasp / actuate,open the microwave
+random_global,1,43,0.0420997153989801,25,705.0,0.041036088474970894,Random,Contact / grasp / actuate,put the white bowl on top of the cabinet
+random_global,1,44,0.07600494872774284,25,1289.0,0.0750291036088475,Random,Contact / grasp / actuate,turn on the stove
+random_global,1,46,0.03829206651191945,25,658.0,0.03830034924330617,Random,Contact / grasp / actuate,pick up the alphabet soup and put it in the basket
+random_global,1,49,0.04780706507544743,25,828.0,0.04819557625145518,Random,Contact / grasp / actuate,pick up the tomato sauce and put it in the basket
+random_global,1,50,0.03863762299791711,25,680.0,0.03958090803259604,Random,Contact / grasp / actuate,pick up the alphabet soup and put it in the basket
+random_global,1,51,0.04258520809256103,25,702.0,0.04086146682188591,Random,Contact / grasp / actuate,pick up the butter and put it in the basket
+random_global,1,52,0.03546486854648619,25,609.0,0.03544819557625146,Random,Contact / grasp / actuate,pick up the milk and put it in the basket
+random_global,1,55,0.032755627542392245,25,563.0,0.03277066356228172,Random,Contact / grasp / actuate,pick up the alphabet soup and put it in the tray
+random_global,1,56,0.027886060997825705,25,490.0,0.02852153667054715,Random,Contact / grasp / actuate,pick up the butter and put it in the tray
+random_global,1,57,0.04433768225238813,25,770.0,0.044819557625145515,Random,Contact / grasp / actuate,pick up the cream cheese and put it in the tray
+random_global,1,59,0.035094313121519005,25,585.0,0.0340512223515716,Random,Contact / grasp / actuate,pick up the tomato sauce and put it in the tray
+random_global,1,60,0.03332613603716545,25,581.0,0.03381839348079162,Random,Contact / grasp / actuate,pick up the black bowl on the left and put it in the tray
+random_global,1,61,0.04718622953843542,25,819.0,0.047671711292200235,Random,Contact / grasp / actuate,pick up the chocolate pudding and put it in the tray
+random_global,1,68,0.03050344443138561,25,512.0,0.02980209545983702,Random,Contact / grasp / actuate,put the yellow and white mug on the right plate
+random_global,1,69,0.03456918065594536,25,583.0,0.03393480791618161,Random,Contact / grasp / actuate,put the chocolate pudding to the left of the plate
+random_global,2,20,0.02572118381274728,25,459.0,0.025590990187332737,Random,Transport / manipulate,turn on the stove
+random_global,2,21,0.08164009247116832,25,1468.0,0.08184656556645852,Random,Transport / manipulate,turn on the stove and put the frying pan on it
+random_global,2,24,0.03557924478342435,25,645.0,0.035961195361284566,Random,Transport / manipulate,put the black bowl in the bottom drawer of the cabinet
+random_global,2,25,0.041480864143596335,25,749.0,0.04175958965209634,Random,Transport / manipulate,put the black bowl on top of the cabinet
+random_global,2,28,0.02194620965120191,25,365.0,0.02035013380909902,Random,Transport / manipulate,close the top drawer of the cabinet
+random_global,2,29,0.03482333788932086,25,629.0,0.03506913470115968,Random,Transport / manipulate,put the black bowl in the top drawer of the cabinet
+random_global,2,30,0.03956970359362,25,709.0,0.03952943800178412,Random,Transport / manipulate,put the black bowl on the plate
+random_global,2,31,0.044577924990386285,25,794.0,0.04426851025869759,Random,Transport / manipulate,put the black bowl on top of the cabinet
+random_global,2,34,0.03558627258534379,25,632.0,0.0352363960749331,Random,Transport / manipulate,put the yellow and white mug to the front of the white mug
+random_global,2,35,0.041086981495456726,25,742.0,0.04136931311329171,Random,Transport / manipulate,open the microwave
+random_global,2,43,0.04251540289346017,25,735.0,0.040979036574487065,Random,Transport / manipulate,put the white bowl on top of the cabinet
+random_global,2,44,0.0742069418069031,25,1355.0,0.07554638715432649,Random,Transport / manipulate,turn on the stove
+random_global,2,46,0.040642659194091074,25,731.0,0.04075602140945584,Random,Transport / manipulate,pick up the alphabet soup and put it in the basket
+random_global,2,49,0.04296721417127764,25,762.0,0.04248438893844782,Random,Transport / manipulate,pick up the tomato sauce and put it in the basket
+random_global,2,50,0.04031372203218178,25,725.0,0.04042149866190901,Random,Transport / manipulate,pick up the alphabet soup and put it in the basket
+random_global,2,51,0.03699792778600828,25,655.0,0.036518733273862625,Random,Transport / manipulate,pick up the butter and put it in the basket
+random_global,2,52,0.030802817194845056,25,569.0,0.03172390722569135,Random,Transport / manipulate,pick up the milk and put it in the basket
+random_global,2,55,0.03500310748762761,25,635.0,0.035403657448706514,Random,Transport / manipulate,pick up the alphabet soup and put it in the tray
+random_global,2,56,0.030979758515478326,25,555.0,0.03094335414808207,Random,Transport / manipulate,pick up the butter and put it in the tray
+random_global,2,57,0.04385418378061567,25,790.0,0.04404549509366637,Random,Transport / manipulate,pick up the cream cheese and put it in the tray
+random_global,2,59,0.03166223936452264,25,586.0,0.03267172167707404,Random,Transport / manipulate,pick up the tomato sauce and put it in the tray
+random_global,2,60,0.03495613927695971,25,627.0,0.034957627118644065,Random,Transport / manipulate,pick up the black bowl on the left and put it in the tray
+random_global,2,61,0.04559662954864194,25,838.0,0.04672167707404103,Random,Transport / manipulate,pick up the chocolate pudding and put it in the tray
+random_global,2,68,0.03050846612108222,25,539.0,0.03005129348795718,Random,Transport / manipulate,put the yellow and white mug on the right plate
+random_global,2,69,0.03698097541003888,25,642.0,0.03579393398751115,Random,Transport / manipulate,put the chocolate pudding to the left of the plate
+random_global,3,20,0.026872225813402283,25,447.0,0.02598232969076959,Random,Place / release / finish,turn on the stove
+random_global,3,21,0.08304523621803034,25,1414.0,0.08219018832829575,Random,Place / release / finish,turn on the stove and put the frying pan on it
+random_global,3,24,0.039387176793794436,25,667.0,0.03877005347593583,Random,Place / release / finish,put the black bowl in the bottom drawer of the cabinet
+random_global,3,25,0.045709215457744874,25,770.0,0.04475703324808184,Random,Place / release / finish,put the black bowl on top of the cabinet
+random_global,3,28,0.023882779393808805,25,407.0,0.023657289002557546,Random,Place / release / finish,close the top drawer of the cabinet
+random_global,3,29,0.03611434978420272,25,608.0,0.035340618460823064,Random,Place / release / finish,put the black bowl in the top drawer of the cabinet
+random_global,3,30,0.03794422570893159,25,672.0,0.03906068356196234,Random,Place / release / finish,put the black bowl on the plate
+random_global,3,31,0.04078980929201517,25,709.0,0.04121134619855848,Random,Place / release / finish,put the black bowl on top of the cabinet
+random_global,3,34,0.03667668671198083,25,627.0,0.03644501278772379,Random,Place / release / finish,put the yellow and white mug to the front of the white mug
+random_global,3,35,0.04532217855673738,25,783.0,0.045512671471750754,Random,Place / release / finish,open the microwave
+random_global,3,43,0.04024675626660921,25,711.0,0.041327598232969075,Random,Place / release / finish,put the white bowl on top of the cabinet
+random_global,3,44,0.07863826736988502,25,1332.0,0.07742385491746105,Random,Place / release / finish,turn on the stove
+random_global,3,46,0.039942123236240884,25,683.0,0.039700069751220646,Random,Place / release / finish,pick up the alphabet soup and put it in the basket
+random_global,3,49,0.04516367015337604,25,783.0,0.045512671471750754,Random,Place / release / finish,pick up the tomato sauce and put it in the basket
+random_global,3,50,0.04012267144620086,25,690.0,0.040106951871657755,Random,Place / release / finish,pick up the alphabet soup and put it in the basket
+random_global,3,51,0.03740348646451588,25,639.0,0.037142524994187395,Random,Place / release / finish,pick up the butter and put it in the basket
+random_global,3,52,0.031772426184926185,25,574.0,0.033364333875842825,Random,Place / release / finish,pick up the milk and put it in the basket
+random_global,3,55,0.031597898588339765,25,537.0,0.031213671239246687,Random,Place / release / finish,pick up the alphabet soup and put it in the tray
+random_global,3,56,0.028085570801747273,25,479.0,0.027842362241339222,Random,Place / release / finish,pick up the butter and put it in the tray
+random_global,3,57,0.04310327891063185,25,752.0,0.04371076493838642,Random,Place / release / finish,pick up the cream cheese and put it in the tray
+random_global,3,59,0.03234919606537254,25,556.0,0.03231806556614741,Random,Place / release / finish,pick up the tomato sauce and put it in the tray
+random_global,3,60,0.034826249159337394,25,574.0,0.033364333875842825,Random,Place / release / finish,pick up the black bowl on the left and put it in the tray
+random_global,3,61,0.04056050599727071,25,713.0,0.04144385026737968,Random,Place / release / finish,pick up the chocolate pudding and put it in the tray
+random_global,3,68,0.02983063292916234,25,530.0,0.030806789118809578,Random,Place / release / finish,put the yellow and white mug on the right plate
+random_global,3,69,0.030613382695735637,25,547.0,0.0317949314112997,Random,Place / release / finish,put the chocolate pudding to the left of the plate
